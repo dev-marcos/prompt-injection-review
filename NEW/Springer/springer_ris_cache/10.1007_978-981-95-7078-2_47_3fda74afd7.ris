@@ -1,0 +1,21 @@
+TY  - CONF
+AU  - Ren, Yupeng
+AU  - Chen, Jiangtao
+AU  - Zhang, Rui
+ED  - Mei, Yi
+ED  - Qian, Chao
+ED  - Bai, Quan
+ED  - Xue, Bing
+ED  - Khanna, Sankalp
+PY  - 2026
+DA  - 2026//
+TI  - FATS: A Prompt Injection Attack Utilizing Feign Security Agents with Deceptive Few-Shots Learning
+BT  - PRICAI 2025: Trends in Artificial Intelligence
+SP  - 674
+EP  - 681
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Large Language Models (LLMs) face significant security risks despite their advanced capabilities. While techniques like Reinforcement Learning with Human Feedback (RLHF) improve ethical alignment, excessive exposure to security-related training data may cause LLMs to overtrust such information, creating new vulnerabilities. Investigating this issue, we propose a novel attack method termed FATS (Feign Agent Attack with Toxic-shots). By obfuscating preference extraction, compromising toxicity samples, and inducing malicious behavior, we can effectively mislead LLMs into generating harmful outputs. To evaluate FATS effectiveness, we introduce the FAQuery dataset and conduct experiments on various LLMs. Well-known benchmarks like Advbench were selected to assess the approach. Results demonstrate that mainstream models, including GPT-4.1 (61.6%) and Deepseek-R1 (99.3%) are highly susceptible. It underscored the need to rigorously analyze security-related data sources during model training, developing more secure and reliable LLMs.
+SN  - 978-981-95-7078-2
+ID  - 10.1007/978-981-95-7078-2_47
+ER  - 

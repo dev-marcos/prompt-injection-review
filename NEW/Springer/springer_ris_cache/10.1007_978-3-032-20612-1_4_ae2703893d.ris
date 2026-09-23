@@ -1,0 +1,18 @@
+TY  - CONF
+AU  - Mishra, Gaurang
+AU  - Maheshwari, Shikha
+ED  - Kaiser, M. Shamim
+ED  - Xie, Juanying
+ED  - Joshi, Amit
+PY  - 2026
+DA  - 2026//
+TI  - A Review of Jailbreaking Large Language Models: Methods, Challenges, and Defences
+BT  - Intelligent Strategies for ICT
+SP  - 37
+EP  - 46
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Large Language Models (LLMs) are increasingly integrated with real-world applications. Still, their exposure to adversarial manipulation, particularly jailbreak attacks, poses a significant challenge to the safety and reliability of deployment. Jailbreak attacks are adversarial prompts or deceptive inputs that override an LLM’s safety mechanisms, enabling the generation of restricted and harmful content or policy-violating outputs. Recent studies reveal that these attacks exploit the model alignment and context handling that can be done with minimal technical expertise. The rapid growth of jailbreak techniques, from handcrafted prompt injections to automate template attacks, has raised concerns in secure deployment as well as utilisation and integration of these LLMs. This paper presents a comprehensive review of jailbreak attacks on LLMs, categorising them into different categories based on their nature and mechanism. For each category, we have examined previous studies and their key findings. We also review existing countermeasures and defense techniques for their defense and mitigation. Finally, we identify ongoing challenges, such as the scarcity of standardised benchmarks, the adaptive nature of attackers, and the difficulty of defending against contextual jailbreaks. This review highlights the nature and purpose of these attacks and the need to implement dynamic defense system to handle evolving attacks. It also appreciates cross-disciplinary collaboration to mitigate these attack threats and ensure the safe deployment of LLMs.
+SN  - 978-3-032-20612-1
+ID  - 10.1007/978-3-032-20612-1_4
+ER  - 

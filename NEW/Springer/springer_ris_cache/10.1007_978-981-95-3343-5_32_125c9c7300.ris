@@ -1,0 +1,22 @@
+TY  - CONF
+AU  - Chen, Yongkang
+AU  - Zou, Xiaotian
+AU  - Wang, Tong
+AU  - Tian, Jianwen
+AU  - Li, Hu
+AU  - Kuang, Xiaohui
+ED  - Mao, Xian-Ling
+ED  - Ren, Zhaochun
+ED  - Yang, Muyun
+PY  - 2026
+DA  - 2026//
+TI  - Reward-Guided Many-Shot Jailbreaking
+BT  - Natural Language Processing and Chinese Computing
+SP  - 414
+EP  - 426
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Jailbreaking attacks on large language models enable attackers to bypass built-in safety mechanisms, generating harmful or restricted outputs. Many-Shot Jailbreaking (MSJ) achieves this goal by leveraging demonstrations of multiple harmful behaviors. In this paper, we introduce Reward-Guided Many-Shot Jailbreaking (RG-MSJ), a novel approach that utilizes reward signals within the context to perform many-shot jailbreaking. Our method integrates question-answer pairs across multiple demonstrations with corresponding positive reward descriptions in a context window. For multi-turn conversations, we introduce negative reward descriptions for refusal behaviors, steering the model toward generating unsafe outputs in subsequent turns. Results demonstrate that RG-MSJ significantly outperforms baseline methods across single-turn, multi-turn, and function calling scenarios, performing well across various open-source models. Notably, with only 256 demonstrations, RG-MSJ achieves a 96.75% attack success rate on the Llama-3.1-70B model. Code is available at https://github.com/byerose/MSJRL.
+SN  - 978-981-95-3343-5
+ID  - 10.1007/978-981-95-3343-5_32
+ER  - 

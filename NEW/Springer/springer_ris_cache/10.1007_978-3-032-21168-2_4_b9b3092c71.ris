@@ -1,0 +1,22 @@
+TY  - CONF
+AU  - Zhang, Beilei
+AU  - Wang, Hao
+AU  - Hu, Tao
+AU  - Zhou, Rongkui
+AU  - Tan, Ming
+AU  - Han, Weitao
+AU  - Ma, Hailong
+ED  - Gao, Honghao
+ED  - Wang, Xinheng
+PY  - 2026
+DA  - 2026//
+TI  - RPDP-Guard: Defending Large Language Models Against Jailbreaking Attacks Through Risk Perception and Dynamic Prompting
+BT  - Collaborative Computing: Networking, Applications and Worksharing
+SP  - 61
+EP  - 80
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Large Language Models (LLMs) have been widely adopted across diverse domains due to their exceptional natural language processing capabilities. However, they remain vulnerable to jailbreak attacks, adversarial strategies that bypass safety guardrails to induce harmful outputs. To address these gaps, we propose RPDP-Guard, a defense mechanism that integrates real-time risk perception and dynamic prompting to mitigate both single-turn and multi-turn jailbreaks. Its core design includes two synergistic layers. A risk perception layer, powered by a fine-tuned Qwen3-32B model, detects features and quantifies risks through weighted feature aggregation. A dynamic protection layer tailors system prompts and sampling hyperparameters to risk severity, ensuring proportional defense without sacrificing utility. We perform extensive experiments on four LLMs using five defense methods on nine jailbreak benchmarks. Results show it significantly outperforms five baselines: single-turn attack success rates (ASR) are reduced to as low as 0% on specific models, and multi-turn ASR drops to as low as 0.3% on certain models. Critically, RPDP-Guard maintains utility on benign queries and requires no model modifications, making it readily deployable in API-based environments. This work demonstrates that RPDP-Guard enables a fully automated sense-decision-response loop for jailbreak defense, providing a deployable, lightweight, and effective solution for LLM security. Our code is available at https://github.com/fienxs/RPDP-Guard.
+SN  - 978-3-032-21168-2
+ID  - 10.1007/978-3-032-21168-2_4
+ER  - 

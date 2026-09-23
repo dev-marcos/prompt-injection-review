@@ -1,0 +1,21 @@
+TY  - JOUR
+AU  - Zhou, Guanghao
+AU  - Chen, Cen
+AU  - Qiu, Panjia
+AU  - Fan, Mingyuan
+AU  - Chu, Mingyuan
+AU  - Zhang, Xin
+AU  - Zhou, Jun
+PY  - 2026
+DA  - 2026/05/23
+TI  - CCJA: Context-Coherent Jailbreak Attack for Aligned Large Language Models
+JO  - Machine Learning
+SP  - 132
+VL  - 115
+IS  - 6
+AB  - Purpose: The accessibility of open-source large language models (LLMs) exacerbates the risk of malicious exploitation via white-box attacks. Current jailbreak attacks often struggle to balance high attack success rates with semantic readability, leading to an incomplete assessment of model robustness. This study aims to evaluate the safety lower bound of open-source models by developing an efficient and interpretable attack method that minimizes manual intervention. Methods: We propose CCJA, a jailbreak attack that optimizes prompts in the continuous embedding space rather than over discrete tokens. By decoding perturbed representations using a Masked Language Model head and jointly minimizing jailbreak and reconstruction losses, CCJA can automatically generate fluent and semantically consistent jailbreak prefixes. Results: Extensive evaluations across multiple LLM families demonstrate that CCJA consistently achieves higher success rates and lower perplexity than state-of-the-art baselines. The generated prompts exhibit strong cross-model transferability to advanced commercial LLMs and maintain high resilience against defense mechanisms such as SmoothLLM and perplexity filtering. Furthermore, the method scales effectively to multi-query and multi-model scenarios. Conclusion: Our results expose substantial safety vulnerabilities in open-source LLMs and demonstrate their potential to compromise closed-source systems via transfer attacks. This work highlights the urgency of stronger safety alignment and provides a practical framework for worst-case robustness evaluation.
+SN  - 1573-0565
+UR  - https://doi.org/10.1007/s10994-026-07069-z
+DO  - 10.1007/s10994-026-07069-z
+ID  - Zhou2026
+ER  - 

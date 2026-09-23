@@ -1,0 +1,21 @@
+TY  - CONF
+AU  - Na, Hyunsik
+AU  - Kim, Hajun
+AU  - Yoon, Dooshik
+AU  - Choi, Daeseon
+ED  - Nicomette, Vincent
+ED  - Benzekri, Abdelmalek
+ED  - Boulahia-Cuppens, Nora
+ED  - Vaidya, Jaideep
+PY  - 2026
+DA  - 2026//
+TI  - Countering Jailbreak Attacks with Two-Axis Pre-detection and Conditional Warning Wrappers
+BT  - Computer Security – ESORICS 2025
+SP  - 249
+EP  - 268
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Ensuring the security and ethical alignment of large language models (LLMs) is critical as adversarial attacks, such as prompt injections and jailbreak exploits, continue to evolve. Pre-detection mechanisms have emerged as a promising defense, filtering adversarial prompts before they reach the LLM. However, existing pre-detectors exhibit limitations in distinguishing genuinely harmful queries from legitimate prompts that resemble adversarial inputs, leading to high false positive rates (FPR). To address this, we propose a Two-Axis Pre-Detector (TAPD) that independently classifies harmfulness and jailbreakness, enhancing detection granularity. Furthermore, we introduce a conditional Warning Wrapper mechanism (CWW), a conditional self-reminder that mitigates false positives while maintaining LLM alignment. Our empirical evaluation demonstrates that TAPD significantly reduces FPR while preserving robust security measures, improving both pre-detection reliability and usability in real-world AI applications.
+SN  - 978-3-032-07884-1
+ID  - 10.1007/978-3-032-07884-1_13
+ER  - 

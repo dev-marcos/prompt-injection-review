@@ -1,0 +1,17 @@
+TY  - CHAP
+AU  - Neelakrishnan, Priyanka
+A2  - Neelakrishnan, Priyanka
+PY  - 2026
+DA  - 2026//
+TI  - Responding to Jailbreaking in Enterprise LLMs
+BT  - Jailbreaking LLMs: Protecting the Future of Enterprise Security
+SP  - 469
+EP  - 546
+PB  - Apress
+CY  - Berkeley, CA
+AB  - Keeping up with attackers' sophisticated ploys and updating our defense strategies is a never-ending game in the world of LLMs. Even with red teamers building resiliency into the model, attackers always slip through cracks and find new ways to exploit. No enterprise can eliminate the possibility of jailbreaks completely. Jailbreak attempts that fail today may succeed another day. The question is, how can organizations respond? This is the focus of this chapter.
+SN  - 979-8-8688-2958-1
+UR  - https://doi.org/10.1007/979-8-8688-2958-1_8
+DO  - 10.1007/979-8-8688-2958-1_8
+ID  - Neelakrishnan2026
+ER  - 

@@ -1,0 +1,20 @@
+TY  - CONF
+AU  - Yung, Canaan
+AU  - Dolatabadi, Hadi Mohaghegh
+AU  - Erfani, Sarah
+AU  - Leckie, Christopher
+ED  - Yuan, Shuhan
+ED  - Malliaros, Fragkiskos
+ED  - Zheng, Xin
+PY  - 2025
+DA  - 2025//
+TI  - Round Trip Translation Defence Against Large Language Model Jailbreaking Attacks
+BT  - Trends and Applications in Knowledge Discovery and Data Mining
+SP  - 286
+EP  - 297
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Large language models (LLMs) are susceptible to social-engineered attacks that are human-interpretable but require a high level of comprehension for LLMs to counteract. Existing defenses mitigate less than half of these attacks. To address this, we propose the Round Trip Translation (RTT) method, a pre-processing algorithm designed to defend against social-engineered attacks on LLMs. RTT translates adversarial prompts into several non-Indo-European languages and back to English, rephrasing and broadening them to provide LLMs with more information. Despite the simplicity of this method, it directly impacts the prompt embeddings and increases their global intrinsic dimensionality (GID), hence enabling the detection of subtle adversarial intent and revealing harmful patterns while preserving semantic integrity. We demonstrate that RTT provides more information to LLMs by investigating the GID, which quantifies the diversity and amount of information in the prompt, with experiments showing that adversarial prompts’ GID increases by around 10% after RTT. Additionally, RTT is computationally efficient compared to existing methods, making it a scalable, lightweight, and transferable solution for real-world applications across different LLMs. Our defense mitigated social-engineered attacks, such as Prompt Automatic Iterative Refinement (PAIR), halving the attack success rate compared to state-of-the-art defenses. Our code is publicly available at https://github.com/Cancanxxx/Round_Trip_Translation_Defence.
+SN  - 978-981-96-8197-6
+ID  - 10.1007/978-981-96-8197-6_21
+ER  - 

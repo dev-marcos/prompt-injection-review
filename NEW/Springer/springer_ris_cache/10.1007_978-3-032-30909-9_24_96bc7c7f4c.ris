@@ -1,0 +1,20 @@
+TY  - CONF
+AU  - Sajit, Jenifer
+AU  - Jacob, Jaden Samuel
+AU  - Rapate, Gauri Sameer
+ED  - Hassanien, Aboul Ella
+ED  - Anand, Sameer
+ED  - Jaiswal, Ajay
+ED  - Kumar, Prabhat
+PY  - 2026
+DA  - 2026//
+TI  - An API-Driven Framework for Detecting and Mitigating Prompt Injection Vulnerabilities in Open-Source Large Language Models (LLMs)
+BT  - Innovative Computing and Communications
+SP  - 305
+EP  - 316
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Large Language Models (LLMs) are now widely used in many applications, but they remain vulnerable to prompt injection attacks, where malicious inputs can force them to generate unsafe or unintended outputs. This proposed API, presents a professional yet accessible framework for evaluating and mitigating these vulnerabilities in open-source LLMs. By integrating FastAPI with Garak, an open-source red-teaming toolkit, our system automates the testing of locally hosted Hugging Face models, including GPT-2, Falcon-RW, and TinyLlama, all of which are included in a case study. A user-friendly React interface allows researchers and developers to configure attack probes, visualize comparative results, and access mitigation strategies stored in MongoDB. Our framework not only enables single model security analysis but also facilitates a simultaneous multi-model comparative vulnerability analysis, providing an offline capable environment for researchers and developers to access and utilize. This project offers a crucial tool for understanding prompt injection behaviors and provides actionable insights to strengthen LLM deployments against adversarial manipulation.
+SN  - 978-3-032-30909-9
+ID  - 10.1007/978-3-032-30909-9_24
+ER  - 

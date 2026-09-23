@@ -1,0 +1,27 @@
+TY  - CONF
+AU  - Peláez-González, Carlos
+AU  - Herrera-Poyatos, Andrés
+AU  - Herrera-Triguero, Francisco
+ED  - Quintián, Héctor
+ED  - Corchado, Emilio
+ED  - Troncoso Lora, Alicia
+ED  - Pérez García, Hilde
+ED  - Jove Pérez, Esteban
+ED  - Calvo Rolle, José Luis
+ED  - Martínez de Pisón, Francisco Javier
+ED  - García Bringas, Pablo
+ED  - Martínez Álvarez, Francisco
+ED  - Herrero, Álvaro
+ED  - Fosci, Paolo
+PY  - 2025
+DA  - 2025//
+TI  - An In-depth Analysis of Jailbreaking Through Domain Characterization of LLM Training Sets
+BT  - Hybrid Artificial Intelligent Systems
+SP  - 116
+EP  - 127
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Research on large language models (LLMs) is a prominent field in open-world machine learning. Despite their significant capabilities in natural language processing, LLMs face several challenges that must be overcome, namely, consistency, hallucinations and jailbreaking. In this work we focus on the latter. Jailbreak attacks involve crafting prompts designed to bypass the model alignment safeguards of LLMs, leading to harmful outputs that compromise the safety of the LLM model.
+SN  - 978-3-031-74186-9
+ID  - 10.1007/978-3-031-74186-9_10
+ER  - 

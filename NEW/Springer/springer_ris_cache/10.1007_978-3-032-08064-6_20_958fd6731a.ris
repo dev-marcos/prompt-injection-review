@@ -1,0 +1,20 @@
+TY  - CONF
+AU  - Wahréus, Johan
+AU  - Hussain, Ahmed
+AU  - Papadimitratos, Panos
+ED  - Baras, John S.
+ED  - Papavassiliou, Symeon
+ED  - Tsiropoulou, Eirini Eleni
+ED  - Sayin, Muhammed O.
+PY  - 2026
+DA  - 2026//
+TI  - Jailbreaking Large Language Models Through Content Concretization
+BT  - Game Theory and AI for Security
+SP  - 395
+EP  - 414
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Large Language Models (LLMs) are increasingly deployed for task automation and content generation, yet their safety mechanisms remain vulnerable to circumvention through different jailbreaking techniques. In this paper, we introduce Content Concretization (CC), a novel jailbreaking technique that iteratively transforms abstract malicious requests into concrete, executable implementations. CC is a two-stage process: first, generating initial LLM responses using lower-tier, less constrained safety filters models, then refining them through higher-tier models that process both the preliminary output and original prompt. We evaluate our technique using 350 cybersecurity-specific prompts, demonstrating substantial improvements in jailbreak Success Rates (SRs), increasing from 7% (no refinements) to 62% after three refinement iterations, while maintaining a cost of 7.5¢ per prompt. Comparative A/B testing across nine different LLM evaluators confirms that outputs from additional refinement steps are consistently rated as more malicious and technically superior. Moreover, manual code analysis reveals that generated outputs execute with minimal modification, although optimal deployment typically requires target-specific fine-tuning. With eventual improved harmful code generation, these results highlight critical vulnerabilities in current LLM safety frameworks.
+SN  - 978-3-032-08064-6
+ID  - 10.1007/978-3-032-08064-6_20
+ER  - 

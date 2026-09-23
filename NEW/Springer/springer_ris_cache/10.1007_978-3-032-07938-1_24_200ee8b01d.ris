@@ -1,0 +1,21 @@
+TY  - CONF
+AU  - Tchuindjang, Michael
+AU  - Duran, Nathan
+AU  - Legg, Phil
+AU  - Medjek, Faiza
+ED  - Hart, Emma
+ED  - Horvath, Tomas
+ED  - Tan, Zhiyuan
+ED  - Thomson, Sarah
+PY  - 2026
+DA  - 2026//
+TI  - Jailbreaking LLMs Through Tense Manipulation in Multi-turn Dialogues
+BT  - Advances in Computational Intelligence Systems
+SP  - 278
+EP  - 290
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Large Language Models (LLMs) have demonstrated great potential across many domains, however their susceptibility to jailbreak attacks presents opportunities for malicious actors. These attacks manipulate LLMs to divulge sensitive information or generate harmful content, that could further be utilised in nefarious ways, including as part of cyber-enabled crime, hence presenting a crucial cyber security challenge for the safe and secure interaction of AI-enabled systems. Previous studies highlight the security challenges posed by multi-turn interactions, in which attackers strategically conceal their malicious intent through extended conversations. However, the influence of tense variations on the efficacy of such attacks has received limited attention. This study addresses this gap by systematically examining the role of tense manipulation in multi-turn jailbreak attacks on LLMs. We introduce a novel multi-turn jailbreak attack that specifically exploits past tense reformulation, along with a multi-turn dialogue dataset designed for cyber-related attacks. Experiments conducted on both open-source LLMs (Llama 2-7B, Qwen 2-7B) and closed-source LLMs (GPT-4o-mini, Gemini 2-flash) demonstrate that past tense reformulation significantly enhances attack performance, yielding an average increase of 25.30% with larger effect on closed-source models. These findings highlight the urgent need to strengthen LLM defence strategies against tense variations in multi-turn dialogues. The dataset and jailbreak artefacts are available at: https://github.com/Micdejc/llm_multiturn_attacks.
+SN  - 978-3-032-07938-1
+ID  - 10.1007/978-3-032-07938-1_24
+ER  - 

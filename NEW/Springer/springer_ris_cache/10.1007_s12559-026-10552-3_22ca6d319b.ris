@@ -1,0 +1,17 @@
+TY  - JOUR
+AU  - Hu, Jiaen
+AU  - Zhang, Juan
+AU  - Li, ZiChen
+PY  - 2026
+DA  - 2026/03/27
+TI  - Breaking Barriers: Multi-Agent Prompt Fusion for Automated LLM Jailbreaks
+JO  - Cognitive Computation
+SP  - 32
+VL  - 18
+IS  - 1
+AB  - With the widespread deployment of Large Language Models (LLMs) across various natural language processing tasks, their potential security vulnerabilities have become increasingly prominent, emerging as a crucial issue in AI safety research. Although various jailbreak attack methods have been proposed to expose risks related to generation control and content safety, current studies mostly focus on isolated attack strategies, lacking multi-agent coordination mechanisms and thus failing to comprehensively probe the behavioral boundaries of models. To systematically explore the multidimensional risks of LLMs under jailbreak defense scenarios, this paper proposes a collaborative attack framework based on energy function modeling and multiagent game mechanisms. The framework treats suffix generation, input reconstruction, and context reshaping attacks as three independent agents, each capturing target constraints from distinct attack perspectives. To facilitate effective collaboration among these strategies, a game-theoretic dynamic optimization process is used, enabling agents to evolve jointly and adaptively adjust their respective contributions based on performance feedback. To enhance the linguistic naturalness and attack potency of the generated texts, we introduce a semantic fusion module assisted by a language model, optimizing semantic coherence and expression fluency while preserving adversarial goals. Furthermore, a multidimensional reward function system based on attack success rate (ASR), language perplexity (PPL), and semantic similarity is designed to continuously optimize the fusion strategies within a reinforcement learning framework. Experimental results demonstrate that our method significantly improves attack success rates and text naturalness over multiple attack rounds, producing adversarial samples with stronger stealth and usability. Our findings effectively reveal the current blind spots in LLM defenses under multi-dimensional inputs, advancing research in LLM security and adversarial defense.
+SN  - 1866-9964
+UR  - https://doi.org/10.1007/s12559-026-10552-3
+DO  - 10.1007/s12559-026-10552-3
+ID  - Hu2026
+ER  - 

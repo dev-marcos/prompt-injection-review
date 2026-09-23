@@ -1,0 +1,23 @@
+TY  - CONF
+AU  - Singh, Aastha
+AU  - Halwai, Sakshi
+AU  - Kumar, Abhishek
+AU  - Abhinav
+AU  - Adnan, Mohd
+AU  - Singh, Arpita
+ED  - Hassanien, Aboul Ella
+ED  - Anand, Sameer
+ED  - Jaiswal, Ajay
+ED  - Kumar, Prabhat
+PY  - 2026
+DA  - 2026//
+TI  - Securing Retrieval-Augmented Generation: Prompt Injection, Exfiltration Paths, and Practical Defenses
+BT  - Innovative Computing and Communications
+SP  - 626
+EP  - 640
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Businesses use retrieval-augmented generation (RAG) to provide output from their models, based on a credible source. Still, the same method is used to produce “high-leverage” pathways to inject prompts and leak data. This review frames RAG security as a control-plane issue: Untrusted input (retrieved text, tool output) is combined with trusted input (privileged prompt), which may direct the model’s behaviour and execute side-effecting tools. We will frame attacks as pivoting through three mechanisms: Context Manipulation, Boundary Crossing, Egress and demonstrate how each mechanism allows an attacker to bypass policy or disclose information. Rather than a single defense, we outline a layered baseline that combines source governance, safety-aware retrieval, prompt compartmentalization, scoped tool capabilities, and egress policies. We also highlight where current evaluations fall short: limited modelling of indirect injections seeded in corpora, weak measurement of exfiltration, and minimal coverage of realistic tool chains. The result is a compact map of failure modes and mitigations that practitioners can apply today while providing researchers with targets for stronger, comparable benchmarks.
+SN  - 978-3-032-28591-1
+ID  - 10.1007/978-3-032-28591-1_50
+ER  - 

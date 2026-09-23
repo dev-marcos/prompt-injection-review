@@ -1,0 +1,20 @@
+TY  - CONF
+AU  - Siri, H.
+AU  - Vijayshree, V. M.
+AU  - Shetty, Jyoti
+ED  - Thakur, Sanjeev
+ED  - Garg, Rakesh
+ED  - Sharma, Shilpi
+ED  - Samanta, Debabrata
+PY  - 2026
+DA  - 2026//
+TI  - Adversarial Attacks on Large Language Models: The Prompt Injection Approach
+BT  - Advancements in IoT, Cyber Security and Cloud Computing
+SP  - 187
+EP  - 196
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Large Language Models (LLMs) have become integral to many applications, yet they remain susceptible to adversarial attacks that can undermine their reliability and safety. This paper explores the various adversarial attack strategies that target LLMs, focusing on methods that exploit these models’ weaknesses through manipulations of input data. This paper examines both black-box and white-box attack approaches, including token manipulation, gradient-based attacks, and prompt injection. This study also provides insights into current defense mechanisms for mitigating these vulnerabilities. The findings reveal significant insights into the impact of adversarial techniques on model performance and safety. By addressing these challenges, our research enhances the understanding of LLM vulnerabilities and contributes to developing more robust and reliable AI systems.
+SN  - 978-981-95-4452-3
+ID  - 10.1007/978-981-95-4452-3_17
+ER  - 

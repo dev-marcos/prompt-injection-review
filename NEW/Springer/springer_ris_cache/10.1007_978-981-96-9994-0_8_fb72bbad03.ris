@@ -1,0 +1,23 @@
+TY  - CONF
+AU  - Wang, Jinyang
+AU  - Zhang, Shuai
+AU  - Liu, Chang
+AU  - Cui, Tiehan
+AU  - Mao, Yanxu
+AU  - You, Datao
+ED  - Huang, De-Shuang
+ED  - Chen, Haiming
+ED  - Li, Bo
+ED  - Zhang, Qinhu
+PY  - 2025
+DA  - 2025//
+TI  - PIDRCMPP: Rapid Multi-Strategy Hierarchical Jailbreak Attacks on LLMs
+BT  - Advanced Intelligent Computing Technology and Applications
+SP  - 89
+EP  - 100
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - With the widespread application of LLMs in NLP tasks, their security issues have gradually become a focal point of research. Although various defense mechanisms, such as alignment techniques and content filtering, have been employed to prevent models from generating harmful content, LLMs remain vulnerable to security threats like jailbreaking attacks and prompt injection. To further explore the potential vulnerabilities of LLMs and advance adver-sarial research, we propose a novel automated jailbreaking attack method: PIDRCMPP, which combines Pre-Interference (PI), Disguise Reconstruction (DR), Conceal Manipulation (CM), and Program Penetration (PP) strategies to enhance the stealth and success rate of attacks. PI reduces the model’s sensi-tivity to dangerous inputs by stacking multiple instructions in advance. DR utilizes Word Reconstruction and Sentence Reconstruction strategies to by-pass security detection. CM utilizes parallel Simplification and Reverse Guidance to further enhance the stealth of the attack without reducing the toxicity of the prompt. PP exploits the characteristic of LLMs being less sen-sitive to harmful content during program comprehension, guiding them to generate inappropriate content when producing program outputs. The exper-imental results demonstrate that PIDRCMPP exhibits advanced attack success rates and the shortest time overhead across multiple mainstream LLMs.
+SN  - 978-981-96-9994-0
+ID  - 10.1007/978-981-96-9994-0_8
+ER  - 

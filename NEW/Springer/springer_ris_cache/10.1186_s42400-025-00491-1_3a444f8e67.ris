@@ -1,0 +1,20 @@
+TY  - JOUR
+AU  - Yue, Xinxin
+AU  - Zhang, Zhiyong
+AU  - Jing, Junchang
+AU  - Wang, Weiguo
+AU  - Tang, Simin
+AU  - Xue, Mengdan
+PY  - 2026
+DA  - 2026/03/26
+TI  - Chinese semantic obfuscation blackbox jailbreak for domestic large models
+JO  - Cybersecurity
+SP  - 48
+VL  - 9
+IS  - 1
+AB  - Jailbreak attacks represent a significant security threat to large language models (LLMs). Current research on jailbreak vulnerability mining primarily focuses on foreign LLMs operating within an English language environment. Studies indicate that the language context can influence the effectiveness of jailbreak attacks. Consequently, as domestic LLMs continue to develop, it is essential to investigate their jailbreak vulnerabilities within a Chinese language environment. In this paper, we propose a Chinese semantic obfuscation jailbreak attack algorithm to address the issue of jailbreak vulnerabilities in Chinese. First, we implement advanced black-box jailbreak techniques tailored to a Chinese language context to conduct stress tests on domestic large models, analyzing the effectiveness of these sophisticated attacks. Subsequently, we design and implement a Chinese semantic obfuscation jailbreak attack, building upon existing black-box jailbreak methods and adapting them to the unique characteristics of the Chinese language. Experimental results demonstrate that the proposed jailbreak attack achieves superior effectiveness. Compared to existing black-box jailbreak methods, the Chinese semantic obfuscation jailbreak attack shows enhanced performance and readability on LLMs such as Baichuan, ERNIE, GLM, Qwen, Spark, and Yi. Specifically, when compared to the DeepInception jailbreak, the attack’s effectiveness increased by 103%, 150%, and 310% for the Baichuan, Spark, and Yi models, respectively. Additionally, in comparison to the AIM jailbreak, effectiveness improved by 78% and 142% for the ERNIE and Qwen models, respectively. This study explores jailbreak vulnerabilities specific to the Chinese language, highlighting the security risks faced by domestic LLMs operating within a Chinese linguistic context. Content Warning: This paper includes examples of harmful and offensive language.
+SN  - 2523-3246
+UR  - https://doi.org/10.1186/s42400-025-00491-1
+DO  - 10.1186/s42400-025-00491-1
+ID  - Yue2026
+ER  - 

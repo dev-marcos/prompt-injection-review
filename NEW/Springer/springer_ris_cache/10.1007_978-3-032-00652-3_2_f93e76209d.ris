@@ -1,0 +1,18 @@
+TY  - CONF
+AU  - Zahra, Nur Alesha
+AU  - Chin, Zad
+ED  - Cafolla, Daniele
+ED  - Rittman, Timothy
+ED  - Ni, Hao
+PY  - 2026
+DA  - 2026//
+TI  - Prompt Injection is All You Need: A Systemic Framework for Evaluating Healthcare Misinformation in LLMs
+BT  - Artificial Intelligence in Healthcare
+SP  - 17
+EP  - 29
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - The integration of Large Language Models (LLMs) into healthcare applications has raised critical concerns about their susceptibility to generating harmful medical misinformation, particularly when faced with emotionally manipulated prompt injection attacks. Through systematic evaluation of 112 attack scenarios in eight state-of-the-art LLMs, we reveal that emotional manipulation coupled with prompt injection can increase the generation of dangerous medical misinformation without warning from a baseline of 6.2% to 37.5%. We also found that emotional content not only amplifies attack success rates, but also leads to more severe forms of misinformation. Notably, models vary widely in their susceptibility. While some models like Claude 3.5 Sonnet demonstrate strong resistance across all attack types, others show high vulnerability to emotional manipulation. These findings not only underscore critical vulnerabilities in LLM safety filters, but also emphasize the urgent need for enhanced protection against emotionally manipulated prompt injection attacks. Given that 39% of the US population already believe in alternative cancer treatments, and nearly 1 in 5 adults now use AI chatbots for health-related advice, our research highlights the life-threatening implications of AI-generated health misinformation and provides crucial insights for developing more robust safety mechanisms before deployment in clinical settings.
+SN  - 978-3-032-00652-3
+ID  - 10.1007/978-3-032-00652-3_2
+ER  - 

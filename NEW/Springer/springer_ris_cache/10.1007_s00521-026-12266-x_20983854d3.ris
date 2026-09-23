@@ -1,0 +1,17 @@
+TY  - JOUR
+AU  - Milani, Alfredo
+AU  - Franzoni, Valentina
+AU  - Florindi, Emanuele
+PY  - 2026
+DA  - 2026/06/23
+TI  - Indirect prompt injection in large language models
+JO  - Neural Computing and Applications
+SP  - 530
+VL  - 38
+IS  - 13
+AB  - This paper addresses the emerging threat of indirect prompt injection, a technique in which malicious agents embed prompts into seemingly innocuous text to manipulate the behaviour and output of Generative Large Language Models (LLMs). As LLMs become more popular and commonly used in everyday activities, this type of attack poses serious concerns about their responses. Without knowledge and protection, processes that depend on them may not be reliable. We present and analyse real-world high-risk cases, most notably in the scenario of a comparative analysis of Curriculum Vitae documents. In this scenario, prompt injection is used to mislead the human resources manager who uses LLMs to support personnel selection. This risk is also becoming increasingly relevant in educational contexts where LLMs are used for activities such as automated essay review, tutoring, and content generation, potentially enabling subtle forms of manipulation and misconduct. The hidden prompt subtly alters the behaviour of the generative model, steering its output away from the intended results of the user’s LLM prompt. We analyze the structure of these attacks, evaluate the vulnerability and resilience of popular LLMs, and suggest potential countermeasures. We conclude by discussing the broader implications, evolving risks, and opportunities for securing LLM-based workflows.
+SN  - 1433-3058
+UR  - https://doi.org/10.1007/s00521-026-12266-x
+DO  - 10.1007/s00521-026-12266-x
+ID  - Milani2026
+ER  - 

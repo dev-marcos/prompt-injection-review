@@ -1,0 +1,259 @@
+@INPROCEEDINGS{SPRINGER_0021_Aastha2026,
+  title = {Securing Retrieval-Augmented Generation: Prompt Injection, Exfiltration Paths, and Practical Defenses},
+  author = {Aastha SinghSakshi HalwaiAbhishek KumarAbhinavMohd AdnanArpita Singh},
+  year = {2026},
+  abstract = {Businesses use retrieval-augmented generation (RAG) to provide output from their models, based on a credible source. Still, the same method is used to produce “high-leverage” pathways to inject prompts and leak data. This review frames RAG security as a control-plane issue: Untrusted input (retrieved text, tool output) is combined with trusted input (privileged prompt), which may direct the model’s behaviour and execute side-effecting tools. We will frame attacks as pivoting through three mechanisms: Context Manipulation, Boundary Crossing, Egress and demonstrate how each mechanism allows an attacker to bypass policy or disclose information. Rather than a single defense, we outline a layered baseline that combines source governance, safety-aware retrieval, prompt compartmentalization, scoped tool capabilities, and egress policies. We also highlight where current evaluations fall short: limited modelling of indirect injections seeded in corpora, weak measurement of exfiltration, and minimal coverage of realistic tool chains. The result is a compact map of failure modes and mitigations that practitioners can apply today while providing researchers with targets for stronger, comparable benchmarks.},
+  doi = {10.1007/978-3-032-28591-1_50},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-28591-1_50},
+  booktitle = {Innovative Computing and Communications},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0022_Chongwen2026,
+  title = {Defending Against Jailbreak Through Early Exit Generation of&#xa0;Large Language Models},
+  author = {Chongwen ZhaoZhihao DouKaizhu Huang},
+  year = {2026},
+  abstract = {Large Language Models (LLMs) are increasingly attracting attention in various applications. Nonetheless, there is a growing concern as some users attempt to exploit these models for malicious purposes, including the synthesis of controlled substances and the propagation of disinformation. In an effort to mitigate such risks, the concept of “Alignment” technology has been developed. However, recent studies indicate that this alignment can be undermined using sophisticated prompt engineering or adversarial suffixes, a technique known as “Jailbreak”. Our research takes cues from the human-like generate process of LLMs. We identify that while jailbreaking prompts may yield output logits similar to benign prompts, their initial embeddings within the model’s latent space tend to be more analogous to those of malicious prompts. Leveraging this finding, we propose utilizing the early transformer outputs of LLMs as a means to detect malicious inputs, and terminate the generation immediately. We introduce a simple yet significant defense approach called Eeg-Defender for LLMs. We conduct comprehensive experiments on ten jailbreak methods across three models. Our results demonstrate that Eeg-Defender is capable of reducing the Attack Success Rate (ASR) by a significant margin, roughly 85% in comparison with 50% for the present SOTAs, with minimal impact on the utility of LLMs.},
+  doi = {10.1007/978-981-95-4445-5_36},
+  url = {https://link.springer.com/chapter/10.1007/978-981-95-4445-5_36},
+  booktitle = {Neural Information Processing},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0023_Yupeng2026,
+  title = {FATS: A Prompt Injection Attack Utilizing Feign Security Agents with&#xa0;Deceptive Few-Shots Learning},
+  author = {Yupeng RenJiangtao ChenRui Zhang},
+  year = {2026},
+  abstract = {Large Language Models (LLMs) face significant security risks despite their advanced capabilities. While techniques like Reinforcement Learning with Human Feedback (RLHF) improve ethical alignment, excessive exposure to security-related training data may cause LLMs to overtrust such information, creating new vulnerabilities. Investigating this issue, we propose a novel attack method termed FATS (Feign Agent Attack with Toxic-shots). By obfuscating preference extraction, compromising toxicity samples, and inducing malicious behavior, we can effectively mislead LLMs into generating harmful outputs. To evaluate FATS effectiveness, we introduce the FAQuery dataset and conduct experiments on various LLMs. Well-known benchmarks like Advbench were selected to assess the approach. Results demonstrate that mainstream models, including GPT-4.1 (61.6%) and Deepseek-R1 (99.3%) are highly susceptible. It underscored the need to rigorously analyze security-related data sources during model training, developing more secure and reliable LLMs.},
+  doi = {10.1007/978-981-95-7078-2_47},
+  url = {https://link.springer.com/chapter/10.1007/978-981-95-7078-2_47},
+  booktitle = {PRICAI 2025: Trends in Artificial Intelligence},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0024_Beilei2026,
+  title = {RPDP-Guard: Defending Large Language Models Against Jailbreaking Attacks Through Risk Perception and&#xa0;Dynamic Prompting},
+  author = {Beilei ZhangHao WangTao HuRongkui ZhouMing TanWeitao HanHailong Ma},
+  year = {2026},
+  abstract = {Large Language Models (LLMs) have been widely adopted across diverse domains due to their exceptional natural language processing capabilities. However, they remain vulnerable to jailbreak attacks, adversarial strategies that bypass safety guardrails to induce harmful outputs. To address these gaps, we propose RPDP-Guard, a defense mechanism that integrates real-time risk perception and dynamic prompting to mitigate both single-turn and multi-turn jailbreaks. Its core design includes two synergistic layers. A risk perception layer, powered by a fine-tuned Qwen3-32B model, detects features and quantifies risks through weighted feature aggregation. A dynamic protection layer tailors system prompts and sampling hyperparameters to risk severity, ensuring proportional defense without sacrificing utility. We perform extensive experiments on four LLMs using five defense methods on nine jailbreak benchmarks. Results show it significantly outperforms five baselines: single-turn attack success rates (ASR) are reduced to as low as 0% on specific models, and multi-turn ASR drops to as low as 0.3% on certain models. Critically, RPDP-Guard maintains utility on benign queries and requires no model modifications, making it readily deployable in API-based environments. This work demonstrates that RPDP-Guard enables a fully automated sense-decision-response loop for jailbreak defense, providing a deployable, lightweight, and effective solution for LLM security. Our code is available at https://github.com/fienxs/RPDP-Guard.},
+  doi = {10.1007/978-3-032-21168-2_4},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-21168-2_4},
+  booktitle = {Collaborative Computing: Networking, Applications and Worksharing},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0025_Laizhen2026,
+  title = {StreamGuard: A Streaming-Based Defense Against Jailbreaking Attacks in&#xa0;Large Language Models},
+  author = {Laizhen LiXitong GaoXuan WangJuanjuan ZhaoKejiang Ye},
+  year = {2026},
+  abstract = {Large Language Models (LLMs) have achieved remarkable success in natural language processing but remain vulnerable to jailbreak attacks that bypass built-in safety mechanisms and induce the generation of harmful content. Existing defense methods often rely on static prompt modifications or post-generation filtering, neglecting the dynamic nature of the decoding process. In this paper, we propose StreamGuard, a lightweight and plug-and-play defense framework that enhances LLM safety by intervening during the decoding stage. StreamGuard integrates a self-review mechanism to assess the safety of intermediate outputs and conditionally performs prompt insertion to steer generation back to safe trajectories. Extensive experiments on two open-source instruction-tuned models (LLaMA3.1-8B-Instruct and Qwen2.5-7B-Instruct) against three representative jailbreak attacks (AutoDAN, GCG, DeepInception) demonstrate that StreamGuard significantly reduces attack success rates—dropping from 66% to 6% on AutoDAN—while preserving model utility. Our method requires no model fine-tuning, exhibits strong generalizability, and complements existing static defenses. We release our code and evaluation benchmarks to facilitate reproducibility and future research.},
+  doi = {10.1007/978-981-95-4109-6_21},
+  url = {https://link.springer.com/chapter/10.1007/978-981-95-4109-6_21},
+  booktitle = {Neural Information Processing},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@ARTICLE{SPRINGER_0026_Yueqi2023,
+  title = {Defending ChatGPT against jailbreak attack via self-reminders},
+  author = {Yueqi XieJingwei YiJiawei ShaoJustin CurlLingjuan LyuQifeng ChenXing XieFangzhao Wu},
+  year = {2023},
+  abstract = {ChatGPT is a societally impactful artificial intelligence tool with millions of users and integration into products such as Bing. However, the emergence of jailbreak attacks notably threatens its responsible and secure use. Jailbreak attacks use adversarial prompts to bypass ChatGPT’s ethics safeguards and engender harmful responses. This paper investigates the severe yet under-explored problems created by jailbreaks as well as potential defensive techniques. We introduce a jailbreak dataset with various types of jailbreak prompts and malicious instructions. We draw inspiration from the psychological concept of self-reminders and further propose a simple yet effective defence technique called system-mode self-reminder. This technique encapsulates the user’s query in a system prompt that reminds ChatGPT to respond responsibly. Experimental results demonstrate that self-reminders significantly reduce the success rate of jailbreak attacks against ChatGPT from 67.21% to 19.34%. Our work systematically documents the threats posed by jailbreak attacks, introduces and analyses a dataset for evaluating defensive interventions and proposes the psychologically inspired self-reminder technique that can efficiently and effectively mitigate against jailbreaks without further training.},
+  doi = {10.1038/s42256-023-00765-8},
+  url = {https://link.springer.com/article/10.1038/s42256-023-00765-8},
+  journal = {Nature Machine Intelligence},
+  type = {Article},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0027_Nur2026,
+  title = {Prompt Injection is All You Need: A Systemic Framework for&#xa0;Evaluating Healthcare Misinformation in&#xa0;LLMs},
+  author = {Nur Alesha ZahraZad Chin},
+  year = {2026},
+  abstract = {The integration of Large Language Models (LLMs) into healthcare applications has raised critical concerns about their susceptibility to generating harmful medical misinformation, particularly when faced with emotionally manipulated prompt injection attacks. Through systematic evaluation of 112 attack scenarios in eight state-of-the-art LLMs, we reveal that emotional manipulation coupled with prompt injection can increase the generation of dangerous medical misinformation without warning from a baseline of 6.2% to 37.5%. We also found that emotional content not only amplifies attack success rates, but also leads to more severe forms of misinformation. Notably, models vary widely in their susceptibility. While some models like Claude 3.5 Sonnet demonstrate strong resistance across all attack types, others show high vulnerability to emotional manipulation. These findings not only underscore critical vulnerabilities in LLM safety filters, but also emphasize the urgent need for enhanced protection against emotionally manipulated prompt injection attacks. Given that 39% of the US population already believe in alternative cancer treatments, and nearly 1 in 5 adults now use AI chatbots for health-related advice, our research highlights the life-threatening implications of AI-generated health misinformation and provides crucial insights for developing more robust safety mechanisms before deployment in clinical settings.},
+  doi = {10.1007/978-3-032-00652-3_2},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-00652-3_2},
+  booktitle = {Artificial Intelligence in Healthcare},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0028_TheAnh2025,
+  title = {Exploring Prompt Injection: Methodologies and&#xa0;Risks with&#xa0;an&#xa0;Interactive Chatbot Demonstration},
+  author = {The-Anh HoangXuan-Tung NguyenQuynh-Nhu Pham-VoNhat-Hung Dang-Hoang},
+  year = {2025},
+  abstract = {Large Language Models (LLMs) offer significant advancements in computation and generative capabilities, enabling wide-ranging applications. However, integrating LLMs into services introduces risks, particularly through prompt injection attacks, where user inputs can manipulate model behavior. This paper explores common strategies for prompt injection and highlights the associated risks in LLM-integrated applications. To demonstrate this vulnerability, we present Injextion, a chatbot where users attempt to exploit the Llama 3 model to obtain a hidden key. Additionally, we implement a minimal TLS handshake with a digital signature to securely transfer chat messages.},
+  doi = {10.1007/978-981-96-4288-5_31},
+  url = {https://link.springer.com/chapter/10.1007/978-981-96-4288-5_31},
+  booktitle = {Information and Communication Technology},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0029_Daniil2025,
+  title = {Prompt Injection Attacks in&#xa0;Defended Systems},
+  author = {Daniil KhomskyNarek MaloyanBulat Nutfullin},
+  year = {2025},
+  abstract = {Large language models play a crucial role in modern natural language processing technologies. However, their extensive use also introduces potential security risks, such as the possibility of black-box attacks. These attacks can embed hidden malicious features into the model, leading to adverse consequences during its deployment.},
+  doi = {10.1007/978-3-031-80853-1_30},
+  url = {https://link.springer.com/chapter/10.1007/978-3-031-80853-1_30},
+  booktitle = {Distributed Computer and Communication Networks},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0030_Canaan2025,
+  title = {Round Trip Translation Defence Against Large Language Model Jailbreaking Attacks},
+  author = {Canaan YungHadi Mohaghegh DolatabadiSarah ErfaniChristopher Leckie},
+  year = {2025},
+  abstract = {Large language models (LLMs) are susceptible to social-engineered attacks that are human-interpretable but require a high level of comprehension for LLMs to counteract. Existing defenses mitigate less than half of these attacks. To address this, we propose the Round Trip Translation (RTT) method, a pre-processing algorithm designed to defend against social-engineered attacks on LLMs. RTT translates adversarial prompts into several non-Indo-European languages and back to English, rephrasing and broadening them to provide LLMs with more information. Despite the simplicity of this method, it directly impacts the prompt embeddings and increases their global intrinsic dimensionality (GID), hence enabling the detection of subtle adversarial intent and revealing harmful patterns while preserving semantic integrity. We demonstrate that RTT provides more information to LLMs by investigating the GID, which quantifies the diversity and amount of information in the prompt, with experiments showing that adversarial prompts’ GID increases by around 10% after RTT. Additionally, RTT is computationally efficient compared to existing methods, making it a scalable, lightweight, and transferable solution for real-world applications across different LLMs. Our defense mitigated social-engineered attacks, such as Prompt Automatic Iterative Refinement (PAIR), halving the attack success rate compared to state-of-the-art defenses. Our code is publicly available at https://github.com/Cancanxxx/Round_Trip_Translation_Defence.},
+  doi = {10.1007/978-981-96-8197-6_21},
+  url = {https://link.springer.com/chapter/10.1007/978-981-96-8197-6_21},
+  booktitle = {Trends and Applications in Knowledge Discovery and Data Mining},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0031_Yegor2025,
+  title = {Retrieval Poisoning Attacks Based on&#xa0;Prompt Injections into Retrieval-Augmented Generation Systems that&#xa0;Store Generated Responses},
+  author = {Yegor AnichkovVictor PopovSergey Bolovtsov},
+  year = {2025},
+  abstract = {Retrieval-Augmented Generation (RAG) is a technique that enables to mitigate the limitations of large language model (LLM)-based intelligent systems, such as knowledge obsolescence, hallucinations and the lack of domain-specific expertise during text generation. However, the use of RAG also poses new privacy issues, including data poisoning (retrieval, knowledge or corpus poisoning) attacks, prompt injections and knowledge (personally identifiable information) extraction. For instance, by introducing a small number of poisoned documents into the retrieval database, attackers can manipulate the LLM’s responses to include specific information they desire. In particular, previous studies have not sufficiently addressed the security of RAG systems that store generated responses in the retrieval database (also known as RAG with an active database). In this paper, we propose a novel approach to attacking RAG with an active database based on retrieval poisoning and prompt injections for misinformation tasks. The proposed method addresses the issue of delivering poisoned documents to the retrieval database by exploiting a vulnerability in the accumulation of responses. Experiments on multiple datasets and LLMs demonstrate that the success rate of adding poisoned documents to the retrieval database using the proposed method can reach 96% ASR. By adding just one poisoned document to the retrieval database using the proposed method, it is possible to achieve approximately 80% ASR in generating responses with target answers for users. Results confirm the vulnerability of these distributed systems and highlight the need for improved defense mechanisms.},
+  doi = {10.1007/978-3-031-80853-1_31},
+  url = {https://link.springer.com/chapter/10.1007/978-3-031-80853-1_31},
+  booktitle = {Distributed Computer and Communication Networks},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0032_Vikrant2026,
+  title = {An Integrated Framework for&#xa0;Jailbreak Prevention Using Knowledge Graphs and&#xa0;Large Language Models},
+  author = {Vikrant RameshJ. VishwannthR. AishwaryaAruna GaldysV. Vetriselvi},
+  year = {2026},
+  abstract = {LLMs (Large Language Models) have the capability for both natural language understanding and Text generation. The open ended responses by LLMs pose a significant security risk to users of LLMs especially when they try to use malicious prompts. Routine deployment in many security demanding domains makes defenses against adversarial jailbreak attacks which aim to bypass ethical guards, absolutely essential. We have developed an multilayer defense framework that introduces a prompt analysis LLM. This component was finetuned on an augmented jailbreak dataset and obtains contextual information from a knowledge graph constructed based on official guidelines. A lightweight multilayer perceptron model is used along with a pretrained language model (PLM) to classify the risk potential of a threat. Using the final generated response, a feedback loop will reinforce the constructed knowledge graph through the detection of adversarial output provided by the LLM. This improves the interpretability of the model without loss in model accuracy compared to typical adversarial classification methods used in other researches.},
+  doi = {10.1007/978-3-032-22917-5_2},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-22917-5_2},
+  booktitle = {Sustainable Computing and Intelligent Systems},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0033_Julien2024,
+  title = {Jatmo: Prompt Injection Defense by&#xa0;Task-Specific Finetuning},
+  author = {Julien PietMaha AlrashedChawin SitawarinSizhe ChenZeming WeiElizabeth SunBasel AlomairDavid Wagner},
+  year = {2024},
+  abstract = {Large Language Models (LLMs) are attracting significant research attention due to their instruction-following abilities, allowing users and developers to leverage LLMs for a variety of tasks. However, LLMs are vulnerable to prompt-injection attacks: a class of attacks that hijack the model’s instruction-following abilities, changing responses to prompts to undesired, possibly malicious ones. In this work, we introduce Jatmo , a method for generating task-specific models resilient to prompt-injection attacks. Jatmo leverages the fact that LLMs can only follow instructions once they have undergone instruction tuning. It harnesses a teacher instruction-tuned model to generate a task-specific dataset, which is then used to fine-tune a base model (i.e., a non-instruction-tuned model). Jatmo only needs a task prompt and a dataset of inputs for the task: it uses the teacher model to generate outputs. For situations with no pre-existing datasets, Jatmo can use a single example, or in some cases none at all, to produce a fully synthetic dataset. Our experiments on seven tasks show that Jatmo models provide similar quality of outputs on their specific task as standard LLMs, while being resilient to prompt injections. The best attacks succeeded in less than 0.5% of cases against our models, versus 87% success rate against GPT-3.5-Turbo. We release Jatmo at https://github.com/wagner-group/prompt-injection-defense.},
+  doi = {10.1007/978-3-031-70879-4_6},
+  url = {https://link.springer.com/chapter/10.1007/978-3-031-70879-4_6},
+  booktitle = {Computer Security – ESORICS 2024},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0034_Anargyros2026,
+  title = {Automatic Security Testing of&#xa0;System Prompts Against Prompt Injection Attacks},
+  author = {Anargyros KiourkosJavier Luis Cánovas IzquierdoRobert Clarisó},
+  year = {2026},
+  abstract = {Prompt injection attacks pose a major security risk to Large Language Model (LLM)–integrated applications. Existing evaluations are ad hoc and lack standardized testing. To address this gap, this paper introduces an approach for automated security testing of system prompts in LLM-based systems against prompt injection attacks. Our methodology formalizes a taxonomy of prompt injection attacks, extending prior work with a new category (Encoded Strings) that captures encoded malicious payloads. Using curated datasets, we systematically evaluate model robustness through multi-level defenses and six attack categories. An LLM-based oracle scores responses, generating a quantitative System Prompt Robustness Score. Experiments on 20 system prompts across four LLMs demonstrate that automated testing of system prompt defenses is feasible, reproducible, and discriminative across architectures. Results show that layered defense strategies increase robustness and that proprietary, closed-weight models outperform open-weight counterparts. We implement our methodology in a command line tool suitable for use in CI/CD pipelines and make our code and data available in a GitHub repository.},
+  doi = {10.1007/978-3-032-26836-5_12},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-26836-5_12},
+  booktitle = {Research Challenges in Information Science},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0035_Donghyun2026,
+  title = {Prompt Infection: LLM-to-LLM Prompt Injection within Multi-agent Systems},
+  author = {Donghyun LeeMo TiwariBrando Miranda},
+  year = {2026},
+  abstract = {As Large Language Models (LLMs) become increasingly powerful, multi-agent systems (MAS) are widely used in modern AI applications. However, these systems pose unique security risks. In this paper, we expose an even more severe attack vector: LLM-to-LLM prompt injection, which completely overrides the system and grants an attacker full control. We introduce prompt infection, a novel attack in which malicious prompts self-replicate across interconnected agents, behaving much like a computer virus. This attack extends traditional prompt injection by introducing data propagation and self-replication, enabling controlled infection and communication between agents. Prompt Infection poses severe threats, including data theft, scams, misinformation, and system-wide disruption, all while propagating autonomously. We show that repurposing existing prompt injection defenses can help mitigate infection spread and reduce system vulnerability to prompt infection. This work underscores the urgent need to address prompt injection vulnerabilities in MAS as their adoption accelerates.},
+  doi = {10.1007/978-3-032-16092-8_28},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-16092-8_28},
+  booktitle = {Computer Security. ESORICS 2025 International Workshops},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0036_Yi2026,
+  title = {Detection Method for&#xa0;Prompt Injection by&#xa0;Integrating Pre-trained Model and&#xa0;Heuristic Feature Engineering},
+  author = {Yi JiRunzhi LiBaolei Mao},
+  year = {2026},
+  abstract = {To address prompt injection threats in LLMs, we propose DMPI-PMHFE, a dual-channel feature fusion framework that integrates DeBERTa with heuristic feature engineering. The framework transforms input text into semantic vectors while extracting explicit structural features through attack-pattern-based heuristic rules. Features from both channels are fused via fully connected networks for final classification. This approach mitigates limitations of single-channel feature extraction. Experimental results demonstrate that DMPI-PMHFE outperforms existing methods in accuracy, recall, and F1-score across diverse benchmark datasets. When deployed on mainstream LLMs (GLM-4, LLaMA 3, Qwen 2.5, and GPT-4o), it significantly reduces attack success rates.},
+  doi = {10.1007/978-981-95-3072-4_6},
+  url = {https://link.springer.com/chapter/10.1007/978-981-95-3072-4_6},
+  booktitle = {Knowledge Science, Engineering and Management},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@ARTICLE{SPRINGER_0037_Tang2026,
+  title = {Prompt injection in manuscripts: exploiting loopholes or crossing ethical lines?},
+  author = {Tang ShuchenZilong Li},
+  year = {2026},
+  abstract = {The integration of AI in academic publishing has raised significant ethical concerns, particularly regarding the practice of prompt injection, where hidden instructions are embedded in manuscripts to manipulate AI responses in the peer review process.},
+  doi = {10.1186/s41073-025-00187-7},
+  url = {https://link.springer.com/article/10.1186/s41073-025-00187-7},
+  journal = {Research Integrity and Peer Review},
+  type = {Article},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@ARTICLE{SPRINGER_0038_Zheyuan2026,
+  title = {Prompt injection attacks on vision-language models for surgical decision support},
+  author = {Zheyuan ZhangMuhammad Ibtsaam QadirMatthias CarstensEvan Hongyang ZhangMadison Sarah LoiselleFarren Marc MartinusMaksymilian Ksawier MroczkowskiJan ClusmannJakob Nikolas KatherFiona R. Kolbinger},
+  year = {2026},
+  abstract = {Vision-language models (VLMs) hold promise for video-based surgical decision support tasks due to their capabilities to understand complex temporospatial (video) data. However, the same multimodal interfaces that enable such capabilities also introduce new vulnerabilities to manipulations through embedded deceptive text or images (prompt injection attacks). We systematically evaluated four state-of-the-art VLMs using textual and temporally-varying visual prompt injection attacks across 100 curated surgical video clips spanning 8 clinically relevant surgical decision support tasks. While Gemini 2.5 Pro achieved the highest baseline accuracy (mean ± SD: 0.80 ± 0.01), all models suffered significant performance declines under attacks. GPT-o4-mini-high was most vulnerable (baseline accuracy: 0.65 ± 0.05; under prolonged visual attack: 0.24 ± 0.03, P < 0.001). Prolonged visual injections were more disruptive than single-frame attacks. A focused case study on bleeding detection further demonstrated that bidirectional and covert prompt injection attacks effectively misled all models. Chain-of-thought reasoning analysis revealed that injections corrupt intermediate perceptual processing rather than overriding the final decision. These findings indicate the critical need for robust reasoning capabilities and specialized guardrails before vision-language models can be safely deployed for real-time surgical decision support.},
+  doi = {10.1038/s44484-026-00014-6},
+  url = {https://www.nature.com/articles/s44484-026-00014-6},
+  journal = {npj Digital Surgery},
+  type = {Article},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0039_Pablo2026,
+  title = {Comparative Analysis of&#xa0;Jailbreaking Techniques for&#xa0;Large Language Models: A Systematic Evaluation Framework},
+  author = {Pablo VellosilloAna Garcia-FornesJose SuchElena del Val},
+  year = {2026},
+  abstract = {Large Language Models (LLMs) exhibit varying degrees of vulnerability to adversarial attacks that bypass their safety mechanisms. This paper presents a systematic evaluation framework for analyzing different jailbreaking methodologies across multiple model architectures. We introduce a comprehensive framework for quantifying the effectiveness of the jailbreaking technique in 13 distinct categories of harmful content. Our framework enables reproducible comparisons between different attack vectors and provides insight into scale-dependent vulnerability patterns. The evaluations performed on the framework shows how model architecture and parameter count influence resistance to different attack types, revealing important relationships between model capabilities and security vulnerabilities.},
+  doi = {10.1007/978-3-032-19770-2_11},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-19770-2_11},
+  booktitle = {Computational Intelligence in Security for Information Systems},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0040_Yajing2026,
+  title = {When Vision Becomes a&#xa0;Threat: Adversarial Prompt Injection via&#xa0;Visual Embedding Manipulation},
+  author = {Yajing MaJunfeng HaoHaizhou Wang},
+  year = {2026},
+  abstract = {Recently, Multimodal Large Language Models (MLLMs) have demonstrated impressive capabilities but also introduced critical safety vulnerabilities due to their susceptibility to adversarial manipulation. Unlike textual inputs that undergo symbolic-level filtering, visual inputs are mapped into continuous embeddings by frozen vision encoders and injected directly into the language model without explicit safety checks. This unveils an overlooked security risk. We propose the first stealthy embedding-level jailbreak attack that directly perturbs visual token embeddings to inject harmful semantics, thereby bypassing alignment filters and reliably triggering unsafe behavior in MLLMs. Our method constructs a latent semantic embedding matrix from a curated, model-assisted harmful text set and blends it into selected visual token embeddings. To validate the effectiveness of our injection approach, we systematically evaluate multiple spatial attack strategies guided by segment-wise sensitivity analysis. Experiments on three representative MLLMs (LLaVA-1.5, LLaVA-1.6, and mPLUG-Owl2) demonstrate that our method achieves significantly higher Attack Success Rate (ASR), outperforming the strongest baselines by up to +4.5% in absolute ASR. Our results demonstrate that embedding-level injection presents a potent and stealthy jailbreak vector, outperforming prior methods and revealing an overlooked threat surface in MLLMs.},
+  doi = {10.1007/978-981-95-7081-2_10},
+  url = {https://link.springer.com/chapter/10.1007/978-981-95-7081-2_10},
+  booktitle = {PRICAI 2025: Trends in Artificial Intelligence},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}

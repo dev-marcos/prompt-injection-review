@@ -1,0 +1,16 @@
+TY  - JOUR
+AU  - Teichmann, Fabian
+PY  - 2026
+DA  - 2026/06/01
+TI  - Generative AI jailbreaks as emerging cyberthreats: Ethical, legal, and societal implications
+JO  - International Cybersecurity Law Review
+SP  - 187
+EP  - 204
+VL  - 7
+IS  - 2
+AB  - Generative artificial intelligence (AI) systems such as large language models have demonstrated unprecedented capabilities in producing human-like content. They are, however, constrained by safety guardrails intended to prevent harmful outputs. Jailbreaking techniques—malicious or manipulative prompts that bypass these safeguards—have emerged as a new cybersecurity threat. This article comprehensively analyzes generative AI jailbreaks from ethical, legal, and societal perspectives. Ethically, the ease of coercing AI models to generate disallowed content raises concerns about accountability, trust, and the propagation of harmful bias. Societally, AI jailbreaks can facilitate misinformation, cybercrime, and other abuses at scale, undermining public trust in AI-driven systems. From the legal perspective, we examine how existing criminal laws and new EU regulatory frameworks address (or fail to address) the challenges posed by AI jailbreaks. In particular, we analyze EU initiatives—including the Network and Information Security Directive (NIS2), the Digital Operational Resilience Act (DORA), the Cyber Resilience Act (CRA), and the forthcoming AI Act—to assess obligations for AI providers to mitigate these vulnerabilities. We find that prompt-based attacks on AI do not neatly fit into traditional cybercrime definitions, creating potential gaps in criminal liability. Nevertheless, emerging regulations require AI systems to be robust against the circumvention of safety measures, signaling regulatory recognition of the jailbreak threat. We argue for a holistic approach that combines technical safeguards, clear legal accountability, and ethical design principles to address generative AI jailbreaks and their implications for security and society.
+SN  - 2662-9739
+UR  - https://doi.org/10.1365/s43439-026-00171-x
+DO  - 10.1365/s43439-026-00171-x
+ID  - Teichmann2026
+ER  - 

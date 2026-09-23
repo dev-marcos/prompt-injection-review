@@ -1,0 +1,20 @@
+TY  - CONF
+AU  - Ando, Junichiro
+AU  - Okada, Satoshi
+AU  - Mitsunaga, Takuho
+ED  - Yang, Xin-She
+ED  - Sherratt, Simon
+ED  - Dey, Nilanjan
+ED  - Joshi, Amit
+PY  - 2025
+DA  - 2025//
+TI  - Jailbreak Attack on a Multi-agent LLM Defense System
+BT  - Proceedings of Tenth International Congress on Information and Communication Technology
+SP  - 251
+EP  - 258
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Large Language Models (LLMs) like ChatGPT and Claude have demonstrated exceptional capabilities in content generation but remain vulnerable to adversarial jailbreak attacks that bypass safety mechanisms to output harmful content. This study introduces a novel jailbreak method targeting Autodefense, a multi-agent defense framework designed to detect and mitigate such attacks. By combining obfuscation techniques with the injection of harmless plaintext, our proposed method achieved a high jailbreak attack success rate (maximum value is 95.3%) across different obfuscation methods, which marks a significant increase compared to the ASR of 7.95% without our proposed method. Our experiments prove the effectiveness of our proposed method to bypass Autodefense system.
+SN  - 978-981-96-6441-2
+ID  - 10.1007/978-981-96-6441-2_22
+ER  - 

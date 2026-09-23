@@ -1,0 +1,17 @@
+TY  - CHAP
+AU  - Neelakrishnan, Priyanka
+A2  - Neelakrishnan, Priyanka
+PY  - 2026
+DA  - 2026//
+TI  - Strategies for Safeguarding Against Jailbreak Attempts
+BT  - Jailbreaking LLMs: Protecting the Future of Enterprise Security
+SP  - 325
+EP  - 385
+PB  - Apress
+CY  - Berkeley, CA
+AB  - Attackers always look for weaknesses to exploit, and every such exploit also highlights an opportunity for a defense. Their methods can be surprisingly effective, and in many cases, if you pay attention, they also show you where your defenses are weak. In most cases, safeguarding against jailbreaking attempts involves having multiple layers of protection all working together cohesively.
+SN  - 979-8-8688-2958-1
+UR  - https://doi.org/10.1007/979-8-8688-2958-1_6
+DO  - 10.1007/979-8-8688-2958-1_6
+ID  - Neelakrishnan2026
+ER  - 

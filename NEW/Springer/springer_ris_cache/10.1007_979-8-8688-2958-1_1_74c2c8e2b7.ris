@@ -1,0 +1,17 @@
+TY  - CHAP
+AU  - Neelakrishnan, Priyanka
+A2  - Neelakrishnan, Priyanka
+PY  - 2026
+DA  - 2026//
+TI  - Jailbreaking LLMs and Its Security Implications
+BT  - Jailbreaking LLMs: Protecting the Future of Enterprise Security
+SP  - 1
+EP  - 37
+PB  - Apress
+CY  - Berkeley, CA
+AB  - Jailbreaking refers to exploiting vulnerabilities to bypass manufacturer-imposed safeguards and access internal components or functions that were never meant to be exposed. Not every jailbreaking attempt is malicious, but any successful bypass weakens the system’s security and undermines the safeguards designed to protect it. Although jailbreaking applies to both hardware and software, it is commonly used in the context of software exploitation and poses a significant risk for LLMs.
+SN  - 979-8-8688-2958-1
+UR  - https://doi.org/10.1007/979-8-8688-2958-1_1
+DO  - 10.1007/979-8-8688-2958-1_1
+ID  - Neelakrishnan2026
+ER  - 

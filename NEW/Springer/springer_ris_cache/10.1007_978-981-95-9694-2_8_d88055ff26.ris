@@ -1,0 +1,20 @@
+TY  - CONF
+AU  - Liu, Shuyuan
+AU  - Chen, Jiawei
+AU  - Yin, Zhaoxia
+ED  - Zhan, Jianfeng
+ED  - Wang, Wei
+ED  - Fan, Fanda
+ED  - Su, Yushan
+PY  - 2026
+DA  - 2026//
+TI  - Review of LLM Jailbreaks: White-Box and Black-Box Perspectives on Attacks, Defenses, and Critical Metrics
+BT  - Evaluation Science and Engineering
+SP  - 97
+EP  - 113
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - With the rapid advancement of technology, large language models (LLMs) have become key content generators that shape social discourse and exert far-reaching influence. However, the ability of these models to produce potentially harmful or inappropriate content poses a significant threat to the health and harmony of the online environment. In response, researchers have actively worked to guide models in generating content that aligns with universally accepted societal values, aiming to curb the spread of malicious information. Despite these efforts, the issue of “jailbreak” attacks remains a critical challenge. This not only tests the technological boundaries of LLMs but also raises significant concerns regarding the ethical application and social responsibility of such models. This paper explores the diversity of jailbreak attacks and the complexity of defense algorithms from both white-box and black-box perspectives. Additionally, key evaluation metrics such as attack success rate, robustness, efficiency, and portability are discussed to provide a comprehensive framework for assessing the effectiveness of offensive and defensive strategies. In conclusion, this paper offers a holistic view of LLM jailbreak attacks and defenses, underscoring the importance of vigilance and proactive exploration of effective defense strategies as LLMs continue to be widely deployed.
+SN  - 978-981-95-9694-2
+ID  - 10.1007/978-981-95-9694-2_8
+ER  - 

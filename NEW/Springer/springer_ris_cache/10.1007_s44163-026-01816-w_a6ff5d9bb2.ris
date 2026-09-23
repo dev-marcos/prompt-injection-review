@@ -1,0 +1,14 @@
+TY  - JOUR
+AU  - Abdullah, Saklain
+AU  - Hossain, Riad
+AU  - Chowdhury, Mahfuzulhoq
+PY  - 2026
+DA  - 2026/07/19
+TI  - Quantifying the efficacy of scenario based jailbreaks on Llama using HarmBench and LLM-as-a-judge
+JO  - Discover Artificial Intelligence
+AB  - While alignment techniques like RLHF and DPO protect large language models from direct malicious prompts, these systems remain susceptible to nuanced adversarial environments. In this study, these vulnerabilities are examined by benchmarking Llama-3.1-8B-Instruct against a baseline model, Gemma-2-9B-IT, and evaluating the models’ resistance to the contextual jailbreak attack type, in which an untrustworthy context is placed before a benign prompt. With the exhaustive HarmBench contextual dataset ($$N = 100$$) and a rigorously human validated LLM-as-a-judge (GPT-4o-mini, Cohen’s $$\kappa = 0.843$$), our red teaming pipeline found that Llama achieved an overall Attack Success Rate (ASR) of 22.0%, while Gemma had an ASR of only 8.0%. Strength was highly inconsistent across the domains ranging from perfect when it came to overt threats such as harassment and harmful requests (0.0% ASR) to vulnerable in the cases of cybercrime (37.04% ASR) and misinformation (22.58% ASR). This is in line with a dual-use alignment conflict hypothesis, where more helpfulness signals are promoted than semantic safety filters. The conclusions made in this study indicate that context-aware alignment strategies are crucial to address structurally disguised threats.
+SN  - 2731-0809
+UR  - https://doi.org/10.1007/s44163-026-01816-w
+DO  - 10.1007/s44163-026-01816-w
+ID  - Abdullah2026
+ER  - 

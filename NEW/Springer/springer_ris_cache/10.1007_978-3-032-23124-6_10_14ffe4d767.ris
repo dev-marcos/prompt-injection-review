@@ -1,0 +1,24 @@
+TY  - CONF
+AU  - Tshimula, Jean Marie
+AU  - Ndona, Xavier
+AU  - Nkashama, D’Jeff K.
+AU  - Tardif, Pierre-Martin
+AU  - Kabanza, Froduald
+AU  - Frappier, Marc
+AU  - Wang, Shengrui
+ED  - Armellini, Fabiano
+ED  - Njah, Syrine
+ED  - Mosconi, Elaine
+ED  - Nunes, Breno
+PY  - 2026
+DA  - 2026//
+TI  - Preventing Jailbreak Prompts as Malicious Tools for Cybercriminals: A Cyber Defense Perspective
+BT  - Technology Management for Intelligent, Open and Responsible Organizations and Ecosystems
+SP  - 77
+EP  - 85
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Jailbreak prompts pose a significant threat in AI and cybersecurity, as they are crafted to bypass ethical safeguards in large language models, potentially enabling misuse by cybercriminals. This paper analyzes jailbreak prompts from a cyber defense perspective, exploring techniques like prompt injection and context manipulation that allow harmful content generation, content filter evasion, and sensitive information extraction. We assess the impact of successful jailbreaks, from misinformation and automated social engineering to hazardous content creation, including bioweapons and explosives. To address these threats, we propose strategies involving advanced prompt analysis, dynamic safety protocols, and continuous model fine-tuning to strengthen AI resilience. Additionally, we highlight the need for collaboration among AI researchers, cybersecurity experts, and policymakers to set standards for protecting AI systems. We illustrate these cyber defense approaches through case studies, promoting responsible AI practices to maintain system integrity and public trust.
+SN  - 978-3-032-23124-6
+ID  - 10.1007/978-3-032-23124-6_10
+ER  - 

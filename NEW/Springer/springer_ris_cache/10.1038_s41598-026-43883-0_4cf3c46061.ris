@@ -1,0 +1,20 @@
+TY  - JOUR
+AU  - Srinivasan, Jagadeesan
+AU  - Regi, Silla Ann
+AU  - Anbarasan, Anbarasa Kumar
+AU  - A, Suresh
+AU  - T, Vetriselvi
+AU  - Venu, Sivakumar
+PY  - 2026
+DA  - 2026/04/04
+TI  - Detection and analysis of prompt injection in indian multilingual large language models
+JO  - Scientific Reports
+SP  - 16208
+VL  - 16
+IS  - 1
+AB  - With the use of Large Language Models (LLMs) becoming more significant in many applications, it has become a great need to ask the question how these LLMs can be made safe and robust, and hence make it behave in an ethical way. Among the most seen and evident vulnerabilities or loopholes in LLM are the attacks termed as prompts injections, which is a key vulnerability. Even though this issue is being extensively studied, most of the available and existing literature and defense systems are mostly focussed on English language prompts. As of now, there are no publicly available datasets or any known defense mechanisms that works with the aim of detecting and/or preventing the so-called prompt injection in Indian regional or code-mixed languages associated. The project aims to identify or propose a mechanism to find an answer on exactly how to overcome this significant research gap by assessing the reaction of various LLMs to the injection-style prompts typed in Indian languages particularly Hindi and its code-mixed version, Hinglish. A clean dataset of size 4000 prompts including safe and malicious prompts in Hindi and Hinglish (Hindi-2000 prompts and Hinglish-2000 prompts) is made and a hybrid classifier is proposed that finds to detect injection attempts using their language patterns and other intents or features. Various algorithms including Transformer, Distil Transformer, SVM, XGBoost, Random Forest and Logistic Regression are trained and tested. The integration of a rule-based layer and a transformer model was shown to perform better than all baselines, with 99.70% accuracy and high precision (99.65%), recall (99.75%), and F1-score (99.70%), which demonstrates that its detection is very reliable. The system provides a new direction in ensuring the security of LLM interfaces against prompt-based injection attacks, especially in a diverse and multilingual user population like that in India.
+SN  - 2045-2322
+UR  - https://doi.org/10.1038/s41598-026-43883-0
+DO  - 10.1038/s41598-026-43883-0
+ID  - Srinivasan2026
+ER  - 

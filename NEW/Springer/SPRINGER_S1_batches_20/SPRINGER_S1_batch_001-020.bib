@@ -1,0 +1,259 @@
+@ARTICLE{SPRINGER_0001_Federico2026,
+  title = {Exploiting large language models in peer review: indirect prompt injection attacks and integrity probes},
+  author = {Federico TorrielliStefano LocciAmon RappLuigi Di Caro},
+  year = {2026},
+  abstract = {Large language models are beginning to enter peer review as tools for summarizing manuscripts, drafting evaluations, and reducing reviewer workload. Yet this use creates a security problem specific to evaluative settings: the manuscript being judged can also contain hidden instructions that shape the model’s judgment. We investigate this risk through indirect prompt injection, where hidden text embedded in a manuscript is processed like a benign prompt by a public chatbot during review generation. We introduce an Author-Reviewer-Organizer framework that distinguishes author-side manipulation from organizer-side integrity checks, and use it to evaluate both offensive payloads, which steer reviews toward positive or negative judgments, and integrity-probing payloads, which trigger refusal, watermarking, or external-site redirection. The redirection payload is introduced here as a novel integrity-check mechanism. In experiments on 100 OpenReview papers, two public chatbot systems, five payload families, two custom prompt approaches, three injection positions, and five repeated runs per condition, we generate 42000 model outputs. Hidden instructions are highly effective: positive steering, refusal, and external-site redirection exceed 98% success on both systems; watermarking remains high but less reliable, reaching 94.27% on ChatGPT and 88.17% on Gemini; and negative steering is near-ceiling on ChatGPT but lower on Gemini. Vulnerability varies with payload design, model, and document position. These findings show that current models exhibit “contextual blindness”: they do not reliably separate manuscript content from embedded control text. This weakness threatens the validity of AI-assisted review, while also creating a dual-use channel that organizers may repurpose for detection. Peer-review systems that rely on public LLMs therefore require stronger safeguards between document content and instructions before they can be trusted in evaluative workflows.},
+  doi = {10.1007/s11192-026-05695-x},
+  url = {https://link.springer.com/article/10.1007/s11192-026-05695-x},
+  journal = {Scientometrics},
+  type = {Article},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@ARTICLE{SPRINGER_0002_Alfredo2026,
+  title = {Indirect prompt injection in large language models},
+  author = {Alfredo MilaniValentina FranzoniEmanuele Florindi},
+  year = {2026},
+  abstract = {This paper addresses the emerging threat of indirect prompt injection, a technique in which malicious agents embed prompts into seemingly innocuous text to manipulate the behaviour and output of Generative Large Language Models (LLMs). As LLMs become more popular and commonly used in everyday activities, this type of attack poses serious concerns about their responses. Without knowledge and protection, processes that depend on them may not be reliable. We present and analyse real-world high-risk cases, most notably in the scenario of a comparative analysis of Curriculum Vitae documents. In this scenario, prompt injection is used to mislead the human resources manager who uses LLMs to support personnel selection. This risk is also becoming increasingly relevant in educational contexts where LLMs are used for activities such as automated essay review, tutoring, and content generation, potentially enabling subtle forms of manipulation and misconduct. The hidden prompt subtly alters the behaviour of the generative model, steering its output away from the intended results of the user’s LLM prompt. We analyze the structure of these attacks, evaluate the vulnerability and resilience of popular LLMs, and suggest potential countermeasures. We conclude by discussing the broader implications, evolving risks, and opportunities for securing LLM-based workflows.},
+  doi = {10.1007/s00521-026-12266-x},
+  url = {https://link.springer.com/article/10.1007/s00521-026-12266-x},
+  journal = {Neural Computing and Applications},
+  type = {Article},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0003_H2026,
+  title = {Adversarial Attacks on Large Language Models: The Prompt Injection Approach},
+  author = {H. SiriV. M. VijayshreeJyoti Shetty},
+  year = {2026},
+  abstract = {Large Language Models (LLMs) have become integral to many applications, yet they remain susceptible to adversarial attacks that can undermine their reliability and safety. This paper explores the various adversarial attack strategies that target LLMs, focusing on methods that exploit these models’ weaknesses through manipulations of input data. This paper examines both black-box and white-box attack approaches, including token manipulation, gradient-based attacks, and prompt injection. This study also provides insights into current defense mechanisms for mitigating these vulnerabilities. The findings reveal significant insights into the impact of adversarial techniques on model performance and safety. By addressing these challenges, our research enhances the understanding of LLM vulnerabilities and contributes to developing more robust and reliable AI systems.},
+  doi = {10.1007/978-981-95-4452-3_17},
+  url = {https://link.springer.com/chapter/10.1007/978-981-95-4452-3_17},
+  booktitle = {Advancements in IoT, Cyber Security and Cloud Computing},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0004_Hamza2026,
+  title = {Adversarial Attacks on&#xa0;Large Language Model Applications: Prompt Injection and&#xa0;Token Drain Exploitation},
+  author = {Hamza SalemAhmad AL GhareebManuel Mazzara},
+  year = {2026},
+  abstract = {Large Language Models (LLMs) have become integral components in modern applications, from customer service chatbots to code completion tools. However, their widespread adoption has introduced significant security vulnerabilities. This paper investigates two critical attack vectors against LLM-based applications: prompt injection attacks and token drain attacks via false positive API responses. Prompt injection attacks exploit the model’s instruction-following capabilities to manipulate system behavior, bypass security constraints, and extract sensitive information. Token drain attacks represent a novel form of resource exhaustion where adversaries exploit cross-API interactions by generating false positive responses that trigger excessive token consumption in downstream LLM applications without the application’s knowledge. We analyze the mechanisms, attack vectors, and potential mitigations for both attack classes, providing a comprehensive security assessment based on recent research findings. Our analysis reveals that existing defenses are insufficient, with prompt injection attacks achieving success rates exceeding 84% in agent-based systems, and token drain attacks presenting a significant threat to API-based LLM ecosystems.},
+  doi = {10.1007/978-3-032-23347-9_2},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-23347-9_2},
+  booktitle = {Advanced Information Networking and Applications},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@ARTICLE{SPRINGER_0005_Jagadeesan2026,
+  title = {Detection and analysis of prompt injection in indian multilingual large language models},
+  author = {Jagadeesan SrinivasanSilla Ann RegiAnbarasa Kumar AnbarasanSuresh AVetriselvi TSivakumar Venu},
+  year = {2026},
+  abstract = {With the use of Large Language Models (LLMs) becoming more significant in many applications, it has become a great need to ask the question how these LLMs can be made safe and robust, and hence make it behave in an ethical way. Among the most seen and evident vulnerabilities or loopholes in LLM are the attacks termed as prompts injections, which is a key vulnerability. Even though this issue is being extensively studied, most of the available and existing literature and defense systems are mostly focussed on English language prompts. As of now, there are no publicly available datasets or any known defense mechanisms that works with the aim of detecting and/or preventing the so-called prompt injection in Indian regional or code-mixed languages associated. The project aims to identify or propose a mechanism to find an answer on exactly how to overcome this significant research gap by assessing the reaction of various LLMs to the injection-style prompts typed in Indian languages particularly Hindi and its code-mixed version, Hinglish. A clean dataset of size 4000 prompts including safe and malicious prompts in Hindi and Hinglish (Hindi-2000 prompts and Hinglish-2000 prompts) is made and a hybrid classifier is proposed that finds to detect injection attempts using their language patterns and other intents or features. Various algorithms including Transformer, Distil Transformer, SVM, XGBoost, Random Forest and Logistic Regression are trained and tested. The integration of a rule-based layer and a transformer model was shown to perform better than all baselines, with 99.70% accuracy and high precision (99.65%), recall (99.75%), and F1-score (99.70%), which demonstrates that its detection is very reliable. The system provides a new direction in ensuring the security of LLM interfaces against prompt-based injection attacks, especially in a diverse and multilingual user population like that in India.},
+  doi = {10.1038/s41598-026-43883-0},
+  url = {https://link.springer.com/article/10.1038/s41598-026-43883-0},
+  journal = {Scientific Reports},
+  type = {Article},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@ARTICLE{SPRINGER_0006_Yunfu2026,
+  title = {Prompt injection attacks on educational large language models for higher and vocational education},
+  author = {Yunfu Cai},
+  year = {2026},
+  abstract = {Large Language Models (LLMs) are rapidly being integrated into educational systems for automated grading, intelligent tutoring, question answering, and instructional support. Their effectiveness stems from instruction following through natural-language prompts, yet this design also creates a critical vulnerability: prompt injection. By embedding adversarial instructions into seemingly legitimate student inputs, attackers can override task constraints, manipulate rubric execution, and induce policy violations. This risk is amplified in education due to high-frequency interactions, the presence of sensitive student data, and the high stakes of assessment, guidance, and credentialing in both higher education and vocational training. We study prompt injection in educational LLM pipelines and introduce a structured attack generation framework tailored to learning-oriented prompts. Our method decomposes composite educational prompts into functional segments, constructs role-consistent attack vectors, composes stealthy injections inside pedagogically plausible student responses, and adapts payloads to rubric language and grading conventions. Experiments on four educational benchmarks show that our approach achieves consistently high attack success while maintaining strong stealth. Specifically, we obtain attack success rates of 0.82 on ASAP, 0.79 on SciEntsBank, 0.76 on EduBench, and 0.73 on MMLU-Edu, outperforming competitive baselines by 0.19–0.33 absolute on average, and inducing substantial grade inflation under realistic black-box constraints. These results demonstrate that educational prompts expose structural attack surfaces not captured by generic safety evaluations, motivating security-aware design and testing for educational LLM deployments.},
+  doi = {10.1038/s41598-026-46563-1},
+  url = {https://link.springer.com/article/10.1038/s41598-026-46563-1},
+  journal = {Scientific Reports},
+  type = {Article},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0007_Miosz2026,
+  title = {Compliance-First RAG with&#xa0;Inference Isolation: Embedding Choice and&#xa0;Prompt-Injection Robustness in&#xa0;a&#xa0;Polish Enterprise Corpus},
+  author = {Miłosz Kucharski},
+  year = {2026},
+  abstract = {Retrieval-Augmented Generation (RAG) is a practical way to turn internal documents into a question answering assistant, but many deployments still send user queries and retrieved text to external inference endpoints at query time. For sensitive enterprise knowledge bases, this creates an awkward situation: the system may be helpful, yet the data flow is hard to defend and even harder to audit.},
+  doi = {10.1007/978-3-032-27927-9_23},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-27927-9_23},
+  booktitle = {Dependable Computer Systems: Methods, Models, and Applications},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@ARTICLE{SPRINGER_0008_Ethan2026,
+  title = {Prompt Injection in Clinical Artificial Intelligence Systems: The Emerging Security Challenge of Large Language Models and Agentic AI},
+  author = {Ethan WaisbergJoseph W. Guarnieri},
+  year = {2026},
+  abstract = {Clinical discussion of artificial intelligence safety has concentrated on accuracy, bias, and hallucination, each of which describes a model failing at its assigned task. Prompt injection describes the opposite condition: a model performing exactly as instructed, by an instruction the clinician neither wrote nor can see. The vulnerability arises from a fundamental property of current language-model architectures, which receive an undifferentiated stream of tokens and possess no mechanism for distinguishing content that carries authority from content that does not. Medicine is particularly exposed, because the clinical record is assembled from material originating outside the institution, including referral correspondence, patient-entered messages, external reports, scanned documents, and imaging acquired elsewhere. We argue that prompt injection warrants classification as a patient safety hazard with an articulated threat model rather than as a technical curiosity, that improved prompting and input filtering do not address it, and that the workable response lies in provenance-aware context handling, restricted privileges for irreversible actions, and adversarial testing before deployment.},
+  doi = {10.1007/s10439-026-04376-3},
+  url = {https://link.springer.com/article/10.1007/s10439-026-04376-3},
+  journal = {Annals of Biomedical Engineering},
+  type = {Article},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0009_Jian2026,
+  title = {Boosting Jailbreak Transferability for&#xa0;Large Language Models},
+  author = {Jian ZhengHanqing LiuLifeng ZhouHuanqian YanPeilin Liu},
+  year = {2026},
+  abstract = {Large language models have heightened concerns regarding safety alignment challenges, particularly stemming from jailbreak attacks that circumvent security measures to generate malicious outputs. To address the limitations of existing methods such as GCG, which achieve strong performance on specific models but suffer from efficacy degradation and poor transferability on unseen models, we propose a novel jailbreak method extending GCG. This approach integrates three core components: a scenario induction template, optimized suffix selection, and the re-suffix attack mechanism to minimize output inconsistencies. Extensive experiments across diverse benchmarks demonstrate the superiority of the proposed method, achieving near-perfect success rates (approaching 100%) in both direct attacks and cross-model transferability.},
+  doi = {10.1007/978-981-95-5761-5_31},
+  url = {https://link.springer.com/chapter/10.1007/978-981-95-5761-5_31},
+  booktitle = {Pattern Recognition and Computer Vision},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0010_Jenifer2026,
+  title = {An API-Driven Framework for&#xa0;Detecting and&#xa0;Mitigating Prompt Injection Vulnerabilities in&#xa0;Open-Source Large Language Models (LLMs)},
+  author = {Jenifer SajitJaden Samuel JacobGauri Sameer Rapate},
+  year = {2026},
+  abstract = {Large Language Models (LLMs) are now widely used in many applications, but they remain vulnerable to prompt injection attacks, where malicious inputs can force them to generate unsafe or unintended outputs. This proposed API, presents a professional yet accessible framework for evaluating and mitigating these vulnerabilities in open-source LLMs. By integrating FastAPI with Garak, an open-source red-teaming toolkit, our system automates the testing of locally hosted Hugging Face models, including GPT-2, Falcon-RW, and TinyLlama, all of which are included in a case study. A user-friendly React interface allows researchers and developers to configure attack probes, visualize comparative results, and access mitigation strategies stored in MongoDB. Our framework not only enables single model security analysis but also facilitates a simultaneous multi-model comparative vulnerability analysis, providing an offline capable environment for researchers and developers to access and utilize. This project offers a crucial tool for understanding prompt injection behaviors and provides actionable insights to strengthen LLM deployments against adversarial manipulation.},
+  doi = {10.1007/978-3-032-30909-9_24},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-30909-9_24},
+  booktitle = {Innovative Computing and Communications},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0011_Dishita2026,
+  title = {When Generative AI Prompts Bite Back: Investigating Different Types of Prompt Injection Attacks on Large Language Models (LLMs) and Their Prevention Methods},
+  author = {Dishita NaikIshita NaikNitin Naik},
+  year = {2026},
+  abstract = {Large Language Models (LLMs) are designed to exhibit a high degree of flexibility, enabling them to adapt to a wide range of tasks expressed in natural language. LLMs predominantly operate through a prompt-based paradigm, wherein all interactions are facilitated through natural language prompts. The flexibility and expressive power of LLM prompts also render them a primary vector for prompt injection attacks due to the complex and often opaque structural characteristics of prompt composition, as well as the virtually unbounded attack surface introduced by the infinite variability of natural language expressions. The inherent complexity of prompt structures, coupled with their representation through the infinitely variable medium of natural language, creates opportunities for attackers to exploit these LLM prompts in ways that can manipulate the behaviour of the LLM and enable it to generate unintended or adversarial outputs. Such potential attacks pose significant challenges to the safe and trustworthy deployment of LLMs, thereby necessitating rigorous investigation and a comprehensive understanding to develop effective mitigation strategies. This paper will investigate different types of prompt injection attacks on LLMs. Firstly, it will investigate prompts in LLMs, and various elements of the LLM prompt. Secondly, it will investigate each type of prompt injection attack in detail including its associated attack vectors and an explicit difference with other types of prompt injection attacks. Thirdly, it will investigate several risks associated with prompt injection attacks on LLMs. Lastly, it will investigate several prevention methods for prompt injection attacks on LLMs.},
+  doi = {10.1007/978-3-032-16791-0_30},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-16791-0_30},
+  booktitle = {Contributions Presented at the International Conference on Computing, Communication, Cybersecurity & AI, July 10–11, 2025, Birmingham, UK},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@ARTICLE{SPRINGER_0012_Nazarii2026,
+  title = {Comparative evaluation of machine learning methods for protecting LLMs from prompt injection attacks},
+  author = {Nazarii DzhaliukDmytro SabodashkoVolodymyr KhomaYuriy KhomaViktor KolchenkoMichal Podpora},
+  year = {2026},
+  abstract = {Prompt Injection attacks are a significant threat to the security of Large Language Models, giving adversaries the possibility to manipulate model outputs and bypass guardrails and restrictions. This study explores the effectiveness of selected Machine Learning -based approaches in detecting such attacks, comparing four classes of general-purpose and specialized defense approaches. Our empirical evaluation helps to identify and discuss each method, showing that detection effectiveness is strongly dependent on detection strategies and deployment trade-offs in inline defenses. Using a large benchmark of over 300k labeled prompts, selected following a comparison with three additional open-source corpora, we evaluate (1) traditional ML-based classifiers using embeddings, (2) independently fine-tuned encoder-based transformer models (DistilBERT, RoBERTa, DeBERTa), (3) specialized transformer-based detection models pre-trained for Prompt Injection, and (4) general-purpose LLMs configured as classifiers. Our experiments show that fine-tuned models achieve the highest detection rate on balanced benchmarks, traditional ML-based classifiers provide reasonably strong accuracy while requiring less computation, specialized detector models obtain lower recall, and general-purpose LLM-based classifiers can provide competitive performance, depending on the model used. Our research contributes to improving the robustness of AI-driven security systems against Prompt Injection by presenting a comparative study that can help in selecting and deploying ML-based defense against Prompt Injection attacks.},
+  doi = {10.1007/s10207-026-01264-8},
+  url = {https://link.springer.com/article/10.1007/s10207-026-01264-8},
+  journal = {International Journal of Information Security},
+  type = {Article},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@ARTICLE{SPRINGER_0013_Shuo2026,
+  title = {Bringing the Dual-LLM pattern to practice in Google ADK for deterministic AI agent security against prompt injection},
+  author = {Shuo HuangShin-Jie Lee},
+  year = {2026},
+  abstract = {Large language models (LLMs) are increasingly used as tool-using agents, but indirect prompt injection in external data can trigger unauthorized actions. Many prompt-injection defenses rely on model-based detection, whose decisions can be difficult to audit in deployment. We demonstrate how dual large language model (Dual-LLM) boundary-control principles can be implemented natively in Google’s Agent Development Kit (ADK) through deterministic enforcement points. Our implementation separates a privileged LLM (P-LLM) from a quarantined LLM (Q-LLM), replaces untrusted values with symbolic universally unique identifier (UUID) keys, constrains P-LLM–Q-LLM exchange via schema-validated structured outputs, and optionally applies pre-tool policy checks through ADK callbacks. We evaluate on a fixed attacked benchmark of 50 cases across four environments (banking, Slack, travel, and workspace) using per-case utility and security judges with environment-state validation and trace logging. Across five repeated runs per configuration with openai/gpt-4.1, the single-agent baseline achieves 94.4 ± 2.6% utility and 25.6 ± 3.0% attack success rate (ASR). An AgentDojo-derived Tool Filter baseline achieves 82.4 ± 3.0% utility and 2.8 ± 1.1% ASR. The Dual-LLM configurations without and with policy achieve 78.0 ± 2.0% and 70.4 ± 1.7% utility, respectively; no successful attack is observed in either configuration (0.0 ± 0.0% ASR). Repeating the same five-run evaluation with gemini-2.5-flash records 37.2 ± 4.6% ASR for Baseline, 5.6 ± 0.9% for Tool Filter, and 0.0 ± 0.0% for both Dual-LLM configurations.},
+  doi = {10.1007/s10015-026-01152-3},
+  url = {https://link.springer.com/article/10.1007/s10015-026-01152-3},
+  journal = {Artificial Life and Robotics},
+  type = {Article},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0014_Shengnan2026,
+  title = {IntentBreaker: Intent-Adaptive Jailbreak Attack on&#xa0;Large Language Models},
+  author = {Shengnan GuoYuchen ZhaiShenyi ZhangLingchen ZhaoZhangyi Wang},
+  year = {2026},
+  abstract = {Recent research on jailbreak attacks has uncovered substantial robustness vulnerabilities in existing large language models (LLMs), enabling attackers to bypass safety guardrails through carefully crafted malicious prompts. Such prompts can induce the generation of harmful content, posing significant safety and ethical concerns. In this paper, we reveal that the difficulty of successfully jailbreaking LLMs varies considerably depending on the intent of the attacker, which inherently limits the overall attack success rate (ASR). Current approaches mostly rely on generic jailbreak templates and optimization strategies, and this lack of adaptability limits their effectiveness and efficiency across diverse jailbreak intents.},
+  doi = {10.1007/978-3-032-06078-5_14},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-06078-5_14},
+  booktitle = {Machine Learning and Knowledge Discovery in Databases. Research Track},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@ARTICLE{SPRINGER_0015_Niklas2026,
+  title = {Ethical Implications of Prompt Injection in AI-mediated Grading: An Adversarial Red-Team Evaluation},
+  author = {Niklas Humble},
+  year = {2026},
+  abstract = {The increasing integration of AI tools into academic work introduces both opportunities and new security risks, particularly concerning the integrity of evaluative practices. This study investigates the robustness of AI‑mediated work in higher education by examining whether indirect prompt injection attacks can manipulate course assessment outcomes. The aim is to examine how vulnerable AI‑supported grading processes are to hidden adversarial inputs and to explore potential implications for academic trust, fairness, and integrity in AI-mediated assessment. The study applies a structured adversarial security evaluation, drawing on red‑team testing methodologies. A synthetic student submission was generated and paired with five different indirect prompt injection attempts using combinations of different adversarial prompt techniques. Each attempt was iterated multiple times across different file formats against the same AI tool (Microsoft Copilot) under realistic usage conditions. The results show that several prompt injection attempts successfully altered the output, with some attack strategies achieving success rates between 94 and 100%, while remaining undetected in the output. These findings highlight a discrepancy between security safeguards and system behaviour, raising concerns for AI‑mediated academic work. The study argues for development of clear guidelines and policies for AI use, improved professional development, and standardised assessments for prompt injection resilience in organisations.},
+  doi = {10.1007/s10805-026-09758-9},
+  url = {https://link.springer.com/article/10.1007/s10805-026-09758-9},
+  journal = {Journal of Academic Ethics},
+  type = {Article},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0016_Johan2026,
+  title = {Jailbreaking Large Language Models Through Content Concretization},
+  author = {Johan WahréusAhmed HussainPanos Papadimitratos},
+  year = {2026},
+  abstract = {Large Language Models (LLMs) are increasingly deployed for task automation and content generation, yet their safety mechanisms remain vulnerable to circumvention through different jailbreaking techniques. In this paper, we introduce Content Concretization (CC), a novel jailbreaking technique that iteratively transforms abstract malicious requests into concrete, executable implementations. CC is a two-stage process: first, generating initial LLM responses using lower-tier, less constrained safety filters models, then refining them through higher-tier models that process both the preliminary output and original prompt. We evaluate our technique using 350 cybersecurity-specific prompts, demonstrating substantial improvements in jailbreak Success Rates (SRs), increasing from 7% (no refinements) to 62% after three refinement iterations, while maintaining a cost of 7.5¢ per prompt. Comparative A/B testing across nine different LLM evaluators confirms that outputs from additional refinement steps are consistently rated as more malicious and technically superior. Moreover, manual code analysis reveals that generated outputs execute with minimal modification, although optimal deployment typically requires target-specific fine-tuning. With eventual improved harmful code generation, these results highlight critical vulnerabilities in current LLM safety frameworks.},
+  doi = {10.1007/978-3-032-08064-6_20},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-08064-6_20},
+  booktitle = {Game Theory and AI for Security},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0017_Nguyen2026,
+  title = {Prompt Injection Detection via Attention Tracking: A Comparative Evaluation},
+  author = {Nguyen Minh QuanLe Duc MinhNguyen Dai ThanhTruong Cong NguyenPhan Ngoc Thao MyChien D. C. TaVu Nguyen Hong},
+  year = {2026},
+  abstract = {Despite the improvements made in the area of large language model safety, Prompt Injection attacks can still pose a threat because malicious instructions can manipulate model behavior. The current state of defenses is such that they mostly focus on surface-level prompt features without taking into consideration the model’s dynamics. This paper proposes an innovative method using attention detection with a Focus Score to determine the attention distribution on the instruction and noise tokens in the Transformer model’s internals. Attention anomalies in different heads can be detected as distractor heads to signal any attack.},
+  doi = {10.1007/978-3-032-30310-3_46},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-30310-3_46},
+  booktitle = {Innovative Computing and Communications},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0018_Gaurang2026,
+  title = {A Review of Jailbreaking Large Language Models: Methods, Challenges, and Defences},
+  author = {Gaurang MishraShikha Maheshwari},
+  year = {2026},
+  abstract = {Large Language Models (LLMs) are increasingly integrated with real-world applications. Still, their exposure to adversarial manipulation, particularly jailbreak attacks, poses a significant challenge to the safety and reliability of deployment. Jailbreak attacks are adversarial prompts or deceptive inputs that override an LLM’s safety mechanisms, enabling the generation of restricted and harmful content or policy-violating outputs. Recent studies reveal that these attacks exploit the model alignment and context handling that can be done with minimal technical expertise. The rapid growth of jailbreak techniques, from handcrafted prompt injections to automate template attacks, has raised concerns in secure deployment as well as utilisation and integration of these LLMs. This paper presents a comprehensive review of jailbreak attacks on LLMs, categorising them into different categories based on their nature and mechanism. For each category, we have examined previous studies and their key findings. We also review existing countermeasures and defense techniques for their defense and mitigation. Finally, we identify ongoing challenges, such as the scarcity of standardised benchmarks, the adaptive nature of attackers, and the difficulty of defending against contextual jailbreaks. This review highlights the nature and purpose of these attacks and the need to implement dynamic defense system to handle evolving attacks. It also appreciates cross-disciplinary collaboration to mitigate these attack threats and ensure the safe deployment of LLMs.},
+  doi = {10.1007/978-3-032-20612-1_4},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-20612-1_4},
+  booktitle = {Intelligent Strategies for ICT},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0019_ShihWen2026,
+  title = {Iterative Prompting with Persuasion Skills in Jailbreaking Large Language Models},
+  author = {Shih-Wen KeGuan-Yu LaiGuo-Lin FangHsi-Yuan Kao},
+  year = {2026},
+  abstract = {Large language models (LLMs) are designed to align with human values in their responses. This study exploits LLMs with an iterative prompting technique where each prompt is systematically modified and refined across multiple iterations to enhance its effectiveness in jailbreaking attacks progressively. This technique involves analyzing the response patterns of LLMs, including GPT-3.5, GPT-4, LLaMa2, Vicuna, and ChatGLM, allowing us to adjust and optimize prompts to evade the LLMs’ ethical and security constraints. Persuasion strategies enhance prompt effectiveness while maintaining consistency with malicious intent. Our results show that the attack success rates (ASR) increase as the attacking prompts become more refined with the highest ASR of 90% for GPT4 and ChatGLMa and the lowest ASR of 68% for LLaMa2. Our technique outperforms baseline techniques (PAIR and PAP) in ASR and shows comparable performance with GCG and ArtPrompt.},
+  doi = {10.1007/978-981-95-0887-7_33},
+  url = {https://link.springer.com/chapter/10.1007/978-981-95-0887-7_33},
+  booktitle = {Proceedings of the 9th International Conference on Innovation in Artificial Intelligence},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}
+
+@INPROCEEDINGS{SPRINGER_0020_Shudarsan2026,
+  title = {Securing LLM-Integrated Chatbots: A Transformer-Based Vulnerability Scanner for&#xa0;Prompt Injection and&#xa0;Jailbreak Detection},
+  author = {Shudarsan RegmiSelvam Saravanan},
+  year = {2026},
+  abstract = {Large Language Models (LLMs) are increasingly being integrated into conversational agents across critical domains, ranging from customer support to task automation. While their capabilities have improved significantly, their susceptibility to adversarial inputs has raised serious concerns regarding safety and reliability. Specifically, threats such as prompt injection, jailbreaking, and training data leakage can cause LLMs to disclose sensitive information or perform unauthorized actions. In this work, we propose a supervised learning-based vulnerability scanner designed to assess the security posture of LLM-integrated chatbots by analyzing their responses. The core of our system is a multi-class text classifier built on top of transformer architectures. The classifier is trained to assign severity scores to chatbot outputs, indicating the likelihood and extent of security violations. We constructed a labeled dataset of synthetic responses generated by popular LLMs, categorized into four severity levels ranging from benign to critical. Four transformer-based models: RoBERTa, DeBERTa, ELECTRA, and DistilBERT were trained and evaluated on this dataset. Our experimental results indicate that ELECTRA achieves the best overall performance, reaching a classification accuracy of 97.08 %. The proposed system has been implemented as an end-to-end assessment tool, capable of interfacing with live chatbot APIs, executing adversarial payloads, and producing actionable security reports.},
+  doi = {10.1007/978-3-032-17443-7_13},
+  url = {https://link.springer.com/chapter/10.1007/978-3-032-17443-7_13},
+  booktitle = {Innovative Security Solutions for Information Technology and Communications},
+  type = {Conference paper},
+  database = {Springer Nature Link},
+  searchid = {SPRINGER_S1}
+}

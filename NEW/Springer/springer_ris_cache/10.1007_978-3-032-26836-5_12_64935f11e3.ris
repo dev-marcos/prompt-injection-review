@@ -1,0 +1,20 @@
+TY  - CONF
+AU  - Kiourkos, Anargyros
+AU  - Cánovas Izquierdo, Javier Luis
+AU  - Clarisó, Robert
+ED  - Polacsek, Thomas
+ED  - Ruiz, Marcela
+ED  - Ralyté, Jolita
+ED  - Ravat, Franck
+PY  - 2026
+DA  - 2026//
+TI  - Automatic Security Testing of System Prompts Against Prompt Injection Attacks
+BT  - Research Challenges in Information Science
+SP  - 193
+EP  - 209
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Prompt injection attacks pose a major security risk to Large Language Model (LLM)–integrated applications. Existing evaluations are ad hoc and lack standardized testing. To address this gap, this paper introduces an approach for automated security testing of system prompts in LLM-based systems against prompt injection attacks. Our methodology formalizes a taxonomy of prompt injection attacks, extending prior work with a new category (Encoded Strings) that captures encoded malicious payloads. Using curated datasets, we systematically evaluate model robustness through multi-level defenses and six attack categories. An LLM-based oracle scores responses, generating a quantitative System Prompt Robustness Score. Experiments on 20 system prompts across four LLMs demonstrate that automated testing of system prompt defenses is feasible, reproducible, and discriminative across architectures. Results show that layered defense strategies increase robustness and that proprietary, closed-weight models outperform open-weight counterparts. We implement our methodology in a command line tool suitable for use in CI/CD pipelines and make our code and data available in a GitHub repository.
+SN  - 978-3-032-26836-5
+ID  - 10.1007/978-3-032-26836-5_12
+ER  - 

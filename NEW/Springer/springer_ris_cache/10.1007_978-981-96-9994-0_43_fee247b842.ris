@@ -1,0 +1,22 @@
+TY  - CONF
+AU  - Ma, Mengxin
+AU  - Chu, Qi
+AU  - Yuan, Haojie
+AU  - Gong, Tao
+AU  - Yu, Nenghai
+ED  - Huang, De-Shuang
+ED  - Chen, Haiming
+ED  - Li, Bo
+ED  - Zhang, Qinhu
+PY  - 2025
+DA  - 2025//
+TI  - Dynamic Adversarial Training for Jailbreak Robustness: A Security Enhancement Scheme for LLMs
+BT  - Advanced Intelligent Computing Technology and Applications
+SP  - 516
+EP  - 527
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Recent security incidents involving large language models (LLMs) have raised significant concerns. In particular, jailbreak attacks attempt to bypass the safe-ty constraints of aligned LLMs, resulting in harmful or malicious outputs that violate the design principles and security protocols of these models, thereby posing serious risks to their practical applications. To address this issue, this paper proposes a security enhancement approach for improving the robustness of LLMs against jailbreak attacks. The proposed approach leverages a dynamic adversarial training optimization strategy to generate safe system prompts and integrate them into LLMs. A dynamic adversarial game framework is employed, where the interaction between the attacker and defender is simulated during training. This encourages the model to adaptively learn the characteristics of jailbreak attacks, thereby improving its defense capabilities. The training process employs a gradient-based greedy search method to optimize word embeddings, ensuring that the generated safe prompts are effective against attacks. Experimental results demonstrate that the proposed scheme achieves superior defense performance on mainstream open-source models, showing strong generalization capabilities even against previously unseen attack methods.
+SN  - 978-981-96-9994-0
+ID  - 10.1007/978-981-96-9994-0_43
+ER  - 

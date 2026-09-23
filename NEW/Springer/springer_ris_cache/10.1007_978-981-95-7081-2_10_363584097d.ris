@@ -1,0 +1,21 @@
+TY  - CONF
+AU  - Ma, Yajing
+AU  - Hao, Junfeng
+AU  - Wang, Haizhou
+ED  - Mei, Yi
+ED  - Qian, Chao
+ED  - Bai, Quan
+ED  - Xue, Bing
+ED  - Khanna, Sankalp
+PY  - 2026
+DA  - 2026//
+TI  - When Vision Becomes a Threat: Adversarial Prompt Injection via Visual Embedding Manipulation
+BT  - PRICAI 2025: Trends in Artificial Intelligence
+SP  - 153
+EP  - 169
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Recently, Multimodal Large Language Models (MLLMs) have demonstrated impressive capabilities but also introduced critical safety vulnerabilities due to their susceptibility to adversarial manipulation. Unlike textual inputs that undergo symbolic-level filtering, visual inputs are mapped into continuous embeddings by frozen vision encoders and injected directly into the language model without explicit safety checks. This unveils an overlooked security risk. We propose the first stealthy embedding-level jailbreak attack that directly perturbs visual token embeddings to inject harmful semantics, thereby bypassing alignment filters and reliably triggering unsafe behavior in MLLMs. Our method constructs a latent semantic embedding matrix from a curated, model-assisted harmful text set and blends it into selected visual token embeddings. To validate the effectiveness of our injection approach, we systematically evaluate multiple spatial attack strategies guided by segment-wise sensitivity analysis. Experiments on three representative MLLMs (LLaVA-1.5, LLaVA-1.6, and mPLUG-Owl2) demonstrate that our method achieves significantly higher Attack Success Rate (ASR), outperforming the strongest baselines by up to +4.5% in absolute ASR. Our results demonstrate that embedding-level injection presents a potent and stealthy jailbreak vector, outperforming prior methods and revealing an overlooked threat surface in MLLMs.
+SN  - 978-981-95-7081-2
+ID  - 10.1007/978-981-95-7081-2_10
+ER  - 

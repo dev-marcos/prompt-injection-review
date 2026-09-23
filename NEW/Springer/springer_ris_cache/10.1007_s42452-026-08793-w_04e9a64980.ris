@@ -1,0 +1,17 @@
+TY  - JOUR
+AU  - Abdullah, Saklain
+AU  - Hossain, Riad
+AU  - Chowdhury, Mahfuzulhoq
+PY  - 2026
+DA  - 2026/05/08
+TI  - Quantifying modality imbalance and visual jailbreak robustness in LLaVA via projected gradient descent
+JO  - Discover Applied Sciences
+SP  - 743
+VL  - 8
+IS  - 7
+AB  - While Large Vision Language Models (LVLMs) exhibit remarkable capabilities, their visual modality introduces a critical attack surface that can bypass text only safety alignments. This paper evaluates the vulnerability of LLaVA-1.5 to targeted adversarial visual prompts designed to induce malicious compliance. Using a Projected Gradient Descent (PGD) attack on the MM-SafetyBench dataset, we evaluate 1000 samples across five high risk categories. To eliminate false positives caused by superficial compliance, we apply a rigorous metric that strictly demands sustained, direct compliance without late stage refusals. Our results demonstrate that imperceptible visual perturbations effectively hijack safety guardrails, achieving Attack Success Rates (ASR) of 95% to 100% across all categories at perturbation budgets of $$\epsilon \ge 8/255$$. Furthermore, analysis of the Modality Gap ($$\Delta _{\text {MG}}$$) reveals that adversarial visual embeddings overpower textual safety constraints, forcing a malicious multimodal alignment. These findings underscore the inadequacy of current unimodal safety fine tuning and highlight the urgent need for robust, multimodal specific defense mechanisms.
+SN  - 3004-9261
+UR  - https://doi.org/10.1007/s42452-026-08793-w
+DO  - 10.1007/s42452-026-08793-w
+ID  - Abdullah2026
+ER  - 

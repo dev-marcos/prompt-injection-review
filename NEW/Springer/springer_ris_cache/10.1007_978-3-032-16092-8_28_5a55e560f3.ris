@@ -1,0 +1,26 @@
+TY  - CONF
+AU  - Lee, Donghyun
+AU  - Tiwari, Mo
+AU  - Miranda, Brando
+ED  - Laborde, Romain
+ED  - Garcia-Alfaro, Joaquin
+ED  - Blanc, Gregory
+ED  - Gimenez, Pierre-François
+ED  - Kalutarage, Harsha
+ED  - Yanai, Naoto
+ED  - Shukla, Ankur
+ED  - Pirbhulal, Sandeep
+ED  - Posegga, Joachim
+ED  - Lam, Kwok-Yan
+PY  - 2026
+DA  - 2026//
+TI  - Prompt Infection: LLM-to-LLM Prompt Injection within Multi-agent Systems
+BT  - Computer Security. ESORICS 2025 International Workshops
+SP  - 511
+EP  - 520
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - As Large Language Models (LLMs) become increasingly powerful, multi-agent systems (MAS) are widely used in modern AI applications. However, these systems pose unique security risks. In this paper, we expose an even more severe attack vector: LLM-to-LLM prompt injection, which completely overrides the system and grants an attacker full control. We introduce prompt infection, a novel attack in which malicious prompts self-replicate across interconnected agents, behaving much like a computer virus. This attack extends traditional prompt injection by introducing data propagation and self-replication, enabling controlled infection and communication between agents. Prompt Infection poses severe threats, including data theft, scams, misinformation, and system-wide disruption, all while propagating autonomously. We show that repurposing existing prompt injection defenses can help mitigate infection spread and reduce system vulnerability to prompt infection. This work underscores the urgent need to address prompt injection vulnerabilities in MAS as their adoption accelerates.
+SN  - 978-3-032-16092-8
+ID  - 10.1007/978-3-032-16092-8_28
+ER  - 

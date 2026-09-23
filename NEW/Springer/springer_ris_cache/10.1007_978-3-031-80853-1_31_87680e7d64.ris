@@ -1,0 +1,19 @@
+TY  - CONF
+AU  - Anichkov, Yegor
+AU  - Popov, Victor
+AU  - Bolovtsov, Sergey
+ED  - Vishnevsky, Vladimir M.
+ED  - Samouylov, Konstantin E.
+ED  - Kozyrev, Dmitry V.
+PY  - 2025
+DA  - 2025//
+TI  - Retrieval Poisoning Attacks Based on Prompt Injections into Retrieval-Augmented Generation Systems that Store Generated Responses
+BT  - Distributed Computer and Communication Networks
+SP  - 417
+EP  - 429
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Retrieval-Augmented Generation (RAG) is a technique that enables to mitigate the limitations of large language model (LLM)-based intelligent systems, such as knowledge obsolescence, hallucinations and the lack of domain-specific expertise during text generation. However, the use of RAG also poses new privacy issues, including data poisoning (retrieval, knowledge or corpus poisoning) attacks, prompt injections and knowledge (personally identifiable information) extraction. For instance, by introducing a small number of poisoned documents into the retrieval database, attackers can manipulate the LLM’s responses to include specific information they desire. In particular, previous studies have not sufficiently addressed the security of RAG systems that store generated responses in the retrieval database (also known as RAG with an active database). In this paper, we propose a novel approach to attacking RAG with an active database based on retrieval poisoning and prompt injections for misinformation tasks. The proposed method addresses the issue of delivering poisoned documents to the retrieval database by exploiting a vulnerability in the accumulation of responses. Experiments on multiple datasets and LLMs demonstrate that the success rate of adding poisoned documents to the retrieval database using the proposed method can reach 96% ASR. By adding just one poisoned document to the retrieval database using the proposed method, it is possible to achieve approximately 80% ASR in generating responses with target answers for users. Results confirm the vulnerability of these distributed systems and highlight the need for improved defense mechanisms.
+SN  - 978-3-031-80853-1
+ID  - 10.1007/978-3-031-80853-1_31
+ER  - 

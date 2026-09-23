@@ -1,0 +1,29 @@
+TY  - CHAP
+AU  - Hao, Haojie
+AU  - Wang, Jiakai
+AU  - Li, Hainan
+AU  - Zhu, Zhilei
+AU  - Qing, Haotong
+ED  - Zhang, Jingfeng
+ED  - Zhou, Joey
+ED  - Yue So, Rosa Qi
+ED  - Yaguchi, Takaharu
+ED  - Toyoda, Kentaroh
+ED  - Wang, Andong
+ED  - Dai, Peilun
+ED  - Qing, Haotong
+ED  - Zheng, Xingyu
+PY  - 2026
+DA  - 2026//
+TI  - Vision-Fused Jailbreak: A Multi-modal Collaborative Jailbreak Attack
+BT  - Advances in Artificial Intelligence: Efficiency, Reliability, and Innovations in Machine Learning to Healthcare, and Blockchain
+SP  - 185
+EP  - 190
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Even though Multi-modal Large Language Models (MLLMs) achieve success in our daily lives, they show vulnerability to jailbreak attacks. MLLMs need to handle various modalities of data such as language and vision, offering new perspectives for jailbreak attacks. This paper proposes a multi-modal collaborative jailbreak attack method. Since MLLMs encode input image into embeddings aligned with text, these embeddings can be considered to contain a certain amount of semantic information. Our goal is to perturb the input image so that the semantic information in these embeddings includes content related to the jailbreak objective, thereby assisting the language modality in executing jailbreak attacks. Specifically, in order to collaborate with the input jailbreak instruction, we encode harmful content related to the jailbreak instruction into the input image, thereby increasing the probability of the model generating harmful content. Additionally, we utilize cross-attention to identify critical regions in the image that are more relevant to the jailbreak instruction. Then correspondingly amplify the magnitude of perturbations, ensuring that the harmful content contained in the image is more fully represented. Extensive experiments on various MLLMs, including MiniGPT-4, InstructBLIP and LLaVA, strongly support that our method outperforms the comparisons by large margins.
+SN  - 978-3-032-12362-6
+UR  - https://doi.org/10.1007/978-3-032-12362-6_14
+DO  - 10.1007/978-3-032-12362-6_14
+ID  - Hao2026
+ER  - 

@@ -1,0 +1,24 @@
+TY  - CONF
+AU  - Quan, Nguyen Minh
+AU  - Minh, Le Duc
+AU  - Thanh, Nguyen Dai
+AU  - Nguyen, Truong Cong
+AU  - My, Phan Ngoc Thao
+AU  - Ta, Chien D. C.
+AU  - Hong, Vu Nguyen
+ED  - Hassanien, Aboul Ella
+ED  - Anand, Sameer
+ED  - Jaiswal, Ajay
+ED  - Kumar, Prabhat
+PY  - 2026
+DA  - 2026//
+TI  - Prompt Injection Detection via Attention Tracking: A Comparative Evaluation
+BT  - Innovative Computing and Communications
+SP  - 577
+EP  - 588
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Despite the improvements made in the area of large language model safety, Prompt Injection attacks can still pose a threat because malicious instructions can manipulate model behavior. The current state of defenses is such that they mostly focus on surface-level prompt features without taking into consideration the model’s dynamics. This paper proposes an innovative method using attention detection with a Focus Score to determine the attention distribution on the instruction and noise tokens in the Transformer model’s internals. Attention anomalies in different heads can be detected as distractor heads to signal any attack.
+SN  - 978-3-032-30310-3
+ID  - 10.1007/978-3-032-30310-3_46
+ER  - 

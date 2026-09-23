@@ -1,0 +1,13 @@
+TY  - JOUR
+AU  - Huang, Shuo
+AU  - Lee, Shin-Jie
+PY  - 2026
+DA  - 2026/09/18
+TI  - Bringing the Dual-LLM pattern to practice in Google ADK for deterministic AI agent security against prompt injection
+JO  - Artificial Life and Robotics
+AB  - Large language models (LLMs) are increasingly used as tool-using agents, but indirect prompt injection in external data can trigger unauthorized actions. Many prompt-injection defenses rely on model-based detection, whose decisions can be difficult to audit in deployment. We demonstrate how dual large language model (Dual-LLM) boundary-control principles can be implemented natively in Google’s Agent Development Kit (ADK) through deterministic enforcement points. Our implementation separates a privileged LLM (P-LLM) from a quarantined LLM (Q-LLM), replaces untrusted values with symbolic universally unique identifier (UUID) keys, constrains P-LLM–Q-LLM exchange via schema-validated structured outputs, and optionally applies pre-tool policy checks through ADK callbacks. We evaluate on a fixed attacked benchmark of 50 cases across four environments (banking, Slack, travel, and workspace) using per-case utility and security judges with environment-state validation and trace logging. Across five repeated runs per configuration with openai/gpt-4.1, the single-agent baseline achieves 94.4 ± 2.6% utility and 25.6 ± 3.0% attack success rate (ASR). An AgentDojo-derived Tool Filter baseline achieves 82.4 ± 3.0% utility and 2.8 ± 1.1% ASR. The Dual-LLM configurations without and with policy achieve 78.0 ± 2.0% and 70.4 ± 1.7% utility, respectively; no successful attack is observed in either configuration (0.0 ± 0.0% ASR). Repeating the same five-run evaluation with gemini-2.5-flash records 37.2 ± 4.6% ASR for Baseline, 5.6 ± 0.9% for Tool Filter, and 0.0 ± 0.0% for both Dual-LLM configurations.
+SN  - 1614-7456
+UR  - https://doi.org/10.1007/s10015-026-01152-3
+DO  - 10.1007/s10015-026-01152-3
+ID  - Huang2026
+ER  - 

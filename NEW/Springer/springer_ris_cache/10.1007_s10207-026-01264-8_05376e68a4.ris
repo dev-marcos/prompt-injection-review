@@ -1,0 +1,20 @@
+TY  - JOUR
+AU  - Dzhaliuk, Nazarii
+AU  - Sabodashko, Dmytro
+AU  - Khoma, Volodymyr
+AU  - Khoma, Yuriy
+AU  - Kolchenko, Viktor
+AU  - Podpora, Michal
+PY  - 2026
+DA  - 2026/06/15
+TI  - Comparative evaluation of machine learning methods for protecting LLMs from prompt injection attacks
+JO  - International Journal of Information Security
+SP  - 109
+VL  - 25
+IS  - 4
+AB  - Prompt Injection attacks are a significant threat to the security of Large Language Models, giving adversaries the possibility to manipulate model outputs and bypass guardrails and restrictions. This study explores the effectiveness of selected Machine Learning -based approaches in detecting such attacks, comparing four classes of general-purpose and specialized defense approaches. Our empirical evaluation helps to identify and discuss each method, showing that detection effectiveness is strongly dependent on detection strategies and deployment trade-offs in inline defenses. Using a large benchmark of over 300k labeled prompts, selected following a comparison with three additional open-source corpora, we evaluate (1) traditional ML-based classifiers using embeddings, (2) independently fine-tuned encoder-based transformer models (DistilBERT, RoBERTa, DeBERTa), (3) specialized transformer-based detection models pre-trained for Prompt Injection, and (4) general-purpose LLMs configured as classifiers. Our experiments show that fine-tuned models achieve the highest detection rate on balanced benchmarks, traditional ML-based classifiers provide reasonably strong accuracy while requiring less computation, specialized detector models obtain lower recall, and general-purpose LLM-based classifiers can provide competitive performance, depending on the model used. Our research contributes to improving the robustness of AI-driven security systems against Prompt Injection by presenting a comparative study that can help in selecting and deploying ML-based defense against Prompt Injection attacks.
+SN  - 1615-5270
+UR  - https://doi.org/10.1007/s10207-026-01264-8
+DO  - 10.1007/s10207-026-01264-8
+ID  - Dzhaliuk2026
+ER  - 

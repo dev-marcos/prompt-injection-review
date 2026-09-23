@@ -1,0 +1,18 @@
+TY  - JOUR
+AU  - Ahmad, Abrar
+AU  - Naseer, Mehwish
+AU  - Qamar, Usman
+AU  - Alfuraidan, Monther
+PY  - 2026
+DA  - 2026/04/06
+TI  - AB jailbreaking - a novel hybrid framework for exploitation of adversarial vulnerabilities in LLMs
+JO  - Scientific Reports
+SP  - 16473
+VL  - 16
+IS  - 1
+AB  - Large language models (LLMs) have advanced rapidly but remain vulnerable to adversarial “jailbreaking” attacks that elicit harmful or disallowed outputs. We propose AB-JB, a three-stage hybrid jailbreak framework that combines black-box semantic adversarial prompt variant generation with a compact, regularised embedding-level suffix optimiser that discretises to legal tokens. AB-JB first uses an attacker LLM to produce multiple semantically diverse adversarial variants for each harmful behaviour and a judge LLM to score and filter these variants into a high-quality candidate pool. It then performs suffix-only embedding optimization with $$\ell _2$$regularization, per-iteration nearest-neighbour projection, and a strict iteration cap to obtain valid adversarial token suffixes under a bounded computational budget. We evaluate AB-JB on four adversarial benchmarks (AdvBench, HarmBench, JailbreakBench, Malicious-Instruct) against five popular 7B-parameter models (Llama2, Falcon, Vicuna, Mistral, MPT). Across these settings, AB-JB achieves an average of 93% dataset-level attack success rate (ASR-DS), while per-variant success (ASR-APV) averages 55.7%. On Malicious-Instruct we observe near-complete dataset success (99% ASR-DS), which we attribute to using a larger commercial model (Gemini 2.5 Flash) as the attacker when generating variants for this dataset. Compared with token-level gradient attacks, prompt-level search, and soft-prompt methods, our experiments indicate that AB-JB offers a practical compromise between attack success, cross-model performance across 7B-scale models, and compute efficiency, enabled by judge-guided variant selection and a 22-iteration suffix optimization cap. These results underline persistent alignment gaps and motivate adversarially informed defences. The present study is limited to 7B open-weight models and assumes white-box access for the suffix optimization stage.
+SN  - 2045-2322
+UR  - https://doi.org/10.1038/s41598-026-44403-w
+DO  - 10.1038/s41598-026-44403-w
+ID  - Ahmad2026
+ER  - 

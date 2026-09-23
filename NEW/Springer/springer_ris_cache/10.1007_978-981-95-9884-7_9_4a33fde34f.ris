@@ -1,0 +1,18 @@
+TY  - CONF
+AU  - Huang, Zihan
+AU  - Cheng, Hao
+ED  - Yan, Hongyang
+ED  - Wang, Yu
+ED  - Min, Goi Bok
+PY  - 2026
+DA  - 2026//
+TI  - Jailbreak Large Reasoning Model Through Chain-of-Thought Forgery
+BT  - Artificial Intelligence Security and Privacy
+SP  - 119
+EP  - 131
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Large Reasoning Models (LRMs) enhance safety by incorporating explicit reasoning chains before responding, yet this very mechanism introduces a novel attack surface. In this paper, we identify a critical vulnerability in the LRM inference pipeline: the reliance on intermediate reasoning steps creates a novel attack surface. To exploit this, we propose CoT-F, the jailbreak method that forges malicious reasoning content to deceive LRMs into generating prohibited outputs. By appending adversarial suffixes to harmful chains-of-thought, CoT-F effectively bypass the model’s safety mechanism and induce LRMs’ harmful response. Extensive evaluation on Qwen3-8B, DeepSeek-R1-7B and GPT-OSS-20B with AdvBench and StrongREJECT yields 95.7%–100% attack success rate, outperforming the previous best baseline by 22.6 and the original GCG by 34.5 on average. Ablation studies confirm that both the forged-reasoning injection and gradient-optimized adversarial suffix are indispensable. Our findings expose critical vulnerabilities in the design of current reasoning models and provide an effective red-teaming approach for LRMs.
+SN  - 978-981-95-9884-7
+ID  - 10.1007/978-981-95-9884-7_9
+ER  - 

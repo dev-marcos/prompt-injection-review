@@ -1,0 +1,23 @@
+TY  - CONF
+AU  - Fang, Sixin
+AU  - Cheng, Ke
+AU  - Zhang, Jixin
+AU  - Qin, Zheng
+AU  - Zhang, Mingwu
+ED  - Han, Jinguang
+ED  - Xiang, Yang
+ED  - Cheng, Guang
+ED  - Susilo, Willy
+ED  - Chen, Liquan
+PY  - 2026
+DA  - 2026//
+TI  - Secure Guard: A Semantic-Based Jailbreak Prompt Detection Framework for Protecting Large Language Models
+BT  - Information and Communications Security
+SP  - 398
+EP  - 416
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Large language models (LLMs) have made significant progress in the field of natural language processing. Through training, they can understand natural language texts and demonstrate impressive abilities in language processing and generation. However, due to the presence of “competing objectives” and “mismatched generalization” in LLMs, they are susceptible to jailbreak attacks. This type of attack can bypass the safety alignment mechanism of the model, causing LLMs to generate inappropriate or harmful content. To address this issue, this paper proposes a semantic-based jailbreak attack detection method. We have designed a hybrid neural network architecture called Secure Guard to improve the detection effectiveness and accuracy of jailbreak attacks. Compared with existing defense methods, this model identifies harmful content by analyzing input semantic information, solving the low coverage and false alarm problems associated with jailbreak attacks. Experimental results have shown that Secure Guard achieves state-of-the-art performance on multiple test sets.
+SN  - 978-981-95-3537-8
+ID  - 10.1007/978-981-95-3537-8_22
+ER  - 

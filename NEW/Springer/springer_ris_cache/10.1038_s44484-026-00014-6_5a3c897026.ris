@@ -1,0 +1,24 @@
+TY  - JOUR
+AU  - Zhang, Zheyuan
+AU  - Qadir, Muhammad Ibtsaam
+AU  - Carstens, Matthias
+AU  - Zhang, Evan Hongyang
+AU  - Loiselle, Madison Sarah
+AU  - Martinus, Farren Marc
+AU  - Mroczkowski, Maksymilian Ksawier
+AU  - Clusmann, Jan
+AU  - Kather, Jakob Nikolas
+AU  - Kolbinger, Fiona R.
+PY  - 2026
+DA  - 2026/07/27
+TI  - Prompt injection attacks on vision-language models for surgical decision support
+JO  - npj Digital Surgery
+SP  - 15
+VL  - 1
+IS  - 1
+AB  - Vision-language models (VLMs) hold promise for video-based surgical decision support tasks due to their capabilities to understand complex temporospatial (video) data. However, the same multimodal interfaces that enable such capabilities also introduce new vulnerabilities to manipulations through embedded deceptive text or images (prompt injection attacks). We systematically evaluated four state-of-the-art VLMs using textual and temporally-varying visual prompt injection attacks across 100 curated surgical video clips spanning 8 clinically relevant surgical decision support tasks. While Gemini 2.5 Pro achieved the highest baseline accuracy (mean ± SD: 0.80 ± 0.01), all models suffered significant performance declines under attacks. GPT-o4-mini-high was most vulnerable (baseline accuracy: 0.65 ± 0.05; under prolonged visual attack: 0.24 ± 0.03, P < 0.001). Prolonged visual injections were more disruptive than single-frame attacks. A focused case study on bleeding detection further demonstrated that bidirectional and covert prompt injection attacks effectively misled all models. Chain-of-thought reasoning analysis revealed that injections corrupt intermediate perceptual processing rather than overriding the final decision. These findings indicate the critical need for robust reasoning capabilities and specialized guardrails before vision-language models can be safely deployed for real-time surgical decision support.
+SN  - 3091-2806
+UR  - https://doi.org/10.1038/s44484-026-00014-6
+DO  - 10.1038/s44484-026-00014-6
+ID  - Zhang2026
+ER  - 

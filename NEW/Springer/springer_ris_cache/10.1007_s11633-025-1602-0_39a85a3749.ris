@@ -1,0 +1,17 @@
+TY  - JOUR
+AU  - Wang, Zehao
+AU  - Wang, Lanjun
+PY  - 2026
+DA  - 2026/08/01
+TI  - Reasoning-targeted Jailbreak Attacks on Large Reasoning Models via Semantic Triggers and Psychological Framing
+JO  - Machine Intelligence Research
+SP  - 887
+EP  - 902
+VL  - 23
+IS  - 4
+AB  - Large reasoning models (LRMs) have demonstrated strong capabilities in generating step-by-step reasoning chains alongside final answers, enabling their deployment in high-stakes domains such as healthcare and education. While prior jailbreak attack studies have focused on the safety of final answers, little attention has been given to the safety of the reasoning process. In this work, we identify a novel problem that injects harmful content into the reasoning steps while preserving unchanged answers. This type of attack presents two key challenges: 1) Manipulating the input instructions may inadvertently alter the LRM’s final answer, and 2) the diversity of input questions makes it difficult to consistently bypass the LRM’s safety alignment mechanisms and embed harmful content into its reasoning process. To address these challenges, we propose the psychology-based reasoning-targeted jailbreak attack (PRJA) framework, which integrates a semantic-based trigger selection module and a psychology-based instruction generation module. Specifically, the proposed PRJA automatically selects manipulative reasoning triggers via semantic analysis and leverages psychological theories of obedience to authority and moral disengagement to generate adaptive instructions for enhancing the LRM’s compliance with harmful content generation. Extensive experiments on five question-answering datasets demonstrate that PRJA achieves an average attack success rate of 83.6% against several commercial LRMs, including DeepSeek R1, Qwen2.5-Max, and OpenAI o4-mini.
+SN  - 2731-5398
+UR  - https://doi.org/10.1007/s11633-025-1602-0
+DO  - 10.1007/s11633-025-1602-0
+ID  - Wang2026
+ER  - 

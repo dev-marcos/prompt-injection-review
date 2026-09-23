@@ -1,0 +1,17 @@
+TY  - JOUR
+AU  - Hagendorff, Thilo
+AU  - Derner, Erik
+AU  - Oliver, Nuria
+PY  - 2026
+DA  - 2026/02/05
+TI  - Large reasoning models are autonomous jailbreak agents
+JO  - Nature Communications
+SP  - 1435
+VL  - 17
+IS  - 1
+AB  - Jailbreaking – bypassing built-in safety mechanisms in AI models – has traditionally required complex technical procedures or specialized human expertise. In this study, we show that the persuasive capabilities of large reasoning models (LRMs) simplify and scale jailbreaking, converting it into an inexpensive activity accessible to non-experts. We evaluated the capabilities of four LRMs (DeepSeek-R1, Gemini 2.5 Flash, Grok 3 Mini, Qwen3 235B) to act as autonomous adversaries conducting multi-turn conversations with nine widely used target models. LRMs received instructions via a system prompt, before proceeding to planning and executing jailbreaks with no further supervision. We performed extensive experiments with a benchmark of harmful prompts covering several sensitive domains. This setup yielded an overall jailbreak success rate across all model combinations of 97.14%. Our study reveals an alignment regression, in which LRMs can systematically erode the safety guardrails of other models, highlighting the urgent need to further align frontier models not only to resist jailbreak attempts, but also to prevent them from being co-opted into acting as jailbreak agents.
+SN  - 2041-1723
+UR  - https://doi.org/10.1038/s41467-026-69010-1
+DO  - 10.1038/s41467-026-69010-1
+ID  - Hagendorff2026
+ER  - 

@@ -1,0 +1,24 @@
+TY  - CONF
+AU  - Li, Yifan
+AU  - Guo, Hangyu
+AU  - Zhou, Kun
+AU  - Zhao, Wayne Xin
+AU  - Wen, Ji-Rong
+ED  - Leonardis, Aleš
+ED  - Ricci, Elisa
+ED  - Roth, Stefan
+ED  - Russakovsky, Olga
+ED  - Sattler, Torsten
+ED  - Varol, Gül
+PY  - 2025
+DA  - 2025//
+TI  - Images are Achilles’ Heel of Alignment: Exploiting Visual Vulnerabilities for Jailbreaking Multimodal Large Language Models
+BT  - Computer Vision – ECCV 2024
+SP  - 174
+EP  - 189
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - In this paper, we study the harmlessness alignment problem of multimodal large language models (MLLMs). We conduct a systematic empirical analysis of the harmlessness performance of representative MLLMs and reveal that the image input poses the alignment vulnerability of MLLMs. Inspired by this, we propose a novel jailbreak method named HADES, which hides and amplifies the harmfulness of the malicious intent within the text input, using meticulously crafted images. Experimental results show that HADES can effectively jailbreak existing MLLMs, which achieves an average Attack Success Rate (ASR) of 90.26% for LLaVA-1.5 and 71.60% for Gemini Pro Vision. Our code and data are available at https://github.com/RUCAIBox/HADES.
+SN  - 978-3-031-73464-9
+ID  - 10.1007/978-3-031-73464-9_11
+ER  - 

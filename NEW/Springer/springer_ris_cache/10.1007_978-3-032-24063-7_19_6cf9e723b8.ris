@@ -1,0 +1,20 @@
+TY  - CONF
+AU  - Maeller, Christiane
+AU  - Stenfors, Filip
+AU  - Rahat, Mahmoud
+AU  - Torstensson, Olga
+ED  - Tsihrintzis, George A.
+ED  - Wang, Shiuh-Jeng
+ED  - Lee, Jung-San
+PY  - 2026
+DA  - 2026//
+TI  - Robustness of Modern LLMs Against Jailbreaking in Cybersecurity-Related Use Cases
+BT  - Security and Information Technologies with AI, Internet Computing and Big-Data Applications
+SP  - 252
+EP  - 263
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - This paper evaluates three popular LLMs, GPT-4o, DeepSeek-V3, and Mistral’s Le Chat, tested with prompts designed to trigger cybersecurity-related misuse, such as malware creation and distribution. Despite ethical safeguards, all models responded to some restricted requests, with DeepSeek-V3 being the most vulnerable to role-play jailbreaks. Most harmful outputs were low risk, but several produced actionable cybersecurity threats with weak ethical disclaimers, revealing real misuse risks. The study highlights the need for improved pattern recognition, stricter context enforcement, and responsible access controls to reduce LLM exploitation in malicious cyber activities. Until these issues are addressed, jailbreaking remains a persistent threat that requires proactive mitigation.
+SN  - 978-3-032-24063-7
+ID  - 10.1007/978-3-032-24063-7_19
+ER  - 

@@ -1,0 +1,25 @@
+TY  - CONF
+AU  - Vellosillo, Pablo
+AU  - Garcia-Fornes, Ana
+AU  - Such, Jose
+AU  - del Val, Elena
+ED  - Corchado, Emilio
+ED  - Quintián, Héctor
+ED  - Pérez García, Hilde
+ED  - Calvo Rolle, José Luis
+ED  - Ramos, Sérgio Filipe
+ED  - Martínez de Pisón, Francisco Javier
+ED  - Herrero Cosío, Álvaro
+ED  - Fosci, Paolo
+PY  - 2026
+DA  - 2026//
+TI  - Comparative Analysis of Jailbreaking Techniques for Large Language Models: A Systematic Evaluation Framework
+BT  - Computational Intelligence in Security for Information Systems
+SP  - 114
+EP  - 123
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Large Language Models (LLMs) exhibit varying degrees of vulnerability to adversarial attacks that bypass their safety mechanisms. This paper presents a systematic evaluation framework for analyzing different jailbreaking methodologies across multiple model architectures. We introduce a comprehensive framework for quantifying the effectiveness of the jailbreaking technique in 13 distinct categories of harmful content. Our framework enables reproducible comparisons between different attack vectors and provides insight into scale-dependent vulnerability patterns. The evaluations performed on the framework shows how model architecture and parameter count influence resistance to different attack types, revealing important relationships between model capabilities and security vulnerabilities.
+SN  - 978-3-032-19770-2
+ID  - 10.1007/978-3-032-19770-2_11
+ER  - 

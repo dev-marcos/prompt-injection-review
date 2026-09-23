@@ -1,0 +1,26 @@
+TY  - CONF
+AU  - Guo, Shengnan
+AU  - Zhai, Yuchen
+AU  - Zhang, Shenyi
+AU  - Zhao, Lingchen
+AU  - Wang, Zhangyi
+ED  - Ribeiro, Rita P.
+ED  - Pfahringer, Bernhard
+ED  - Japkowicz, Nathalie
+ED  - Larrañaga, Pedro
+ED  - Jorge, Alípio M.
+ED  - Soares, Carlos
+ED  - Abreu, Pedro H.
+ED  - Gama, João
+PY  - 2026
+DA  - 2026//
+TI  - IntentBreaker: Intent-Adaptive Jailbreak Attack on Large Language Models
+BT  - Machine Learning and Knowledge Discovery in Databases. Research Track
+SP  - 240
+EP  - 256
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Recent research on jailbreak attacks has uncovered substantial robustness vulnerabilities in existing large language models (LLMs), enabling attackers to bypass safety guardrails through carefully crafted malicious prompts. Such prompts can induce the generation of harmful content, posing significant safety and ethical concerns. In this paper, we reveal that the difficulty of successfully jailbreaking LLMs varies considerably depending on the intent of the attacker, which inherently limits the overall attack success rate (ASR). Current approaches mostly rely on generic jailbreak templates and optimization strategies, and this lack of adaptability limits their effectiveness and efficiency across diverse jailbreak intents.
+SN  - 978-3-032-06078-5
+ID  - 10.1007/978-3-032-06078-5_14
+ER  - 

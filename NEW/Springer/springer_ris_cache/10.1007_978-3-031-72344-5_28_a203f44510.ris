@@ -1,0 +1,23 @@
+TY  - CONF
+AU  - Zhang, Gang
+AU  - Fan, Xiaowei
+AU  - Fang, Jingquan
+AU  - Sun, Yanna
+AU  - Shi, Xiayang
+AU  - Lu, Chunyang
+ED  - Wand, Michael
+ED  - Malinovská, Kristína
+ED  - Schmidhuber, Jürgen
+ED  - Tetko, Igor V.
+PY  - 2024
+DA  - 2024//
+TI  - Unveiling Vulnerabilities in Large Vision-Language Models: The SAVJ Jailbreak Approach
+BT  - Artificial Neural Networks and Machine Learning – ICANN 2024
+SP  - 417
+EP  - 434
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - The advent of VLMs has pushed the boundaries of artificial intelligence security, building on the capabilities of large language models (LLMs). While VLMs excel at processing visual information, their security matching has remained underexplored, particularly with respect to relying on the matching performance of the underlying LLMs. This paper introduces SAVJ, a novel and efficient adversarial attack scheme specifically designed for VLMs. By transforming harmful content into images and using strategically crafted text, this method bypasses the security alignment of LLMs and tricks VLMs into generating responses that violate AI security policies. We conducted extensive experiments using two open-source VLM sets, LLaVa-v1.5 and MiniGPT, and evaluated the method’s effectiveness against 500 malicious queries across 10 topics. SAVJ demonstrated an impressive success rate of over 80%, maintaining high adversarial effectiveness even with varying model generation parameters and lower quality attack images. Importantly, the simplicity of our method exposes significant security vulnerabilities in current VLMs, where potential misuse could lead to severe consequences. This underscores the urgent need for more security-focused research to safeguard VLMs against exploitation.
+SN  - 978-3-031-72344-5
+ID  - 10.1007/978-3-031-72344-5_28
+ER  - 

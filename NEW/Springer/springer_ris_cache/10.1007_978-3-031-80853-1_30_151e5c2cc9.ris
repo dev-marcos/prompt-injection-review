@@ -1,0 +1,19 @@
+TY  - CONF
+AU  - Khomsky, Daniil
+AU  - Maloyan, Narek
+AU  - Nutfullin, Bulat
+ED  - Vishnevsky, Vladimir M.
+ED  - Samouylov, Konstantin E.
+ED  - Kozyrev, Dmitry V.
+PY  - 2025
+DA  - 2025//
+TI  - Prompt Injection Attacks in Defended Systems
+BT  - Distributed Computer and Communication Networks
+SP  - 404
+EP  - 416
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Large language models play a crucial role in modern natural language processing technologies. However, their extensive use also introduces potential security risks, such as the possibility of black-box attacks. These attacks can embed hidden malicious features into the model, leading to adverse consequences during its deployment.
+SN  - 978-3-031-80853-1
+ID  - 10.1007/978-3-031-80853-1_30
+ER  - 

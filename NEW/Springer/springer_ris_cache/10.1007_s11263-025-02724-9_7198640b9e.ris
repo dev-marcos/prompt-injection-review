@@ -1,0 +1,22 @@
+TY  - JOUR
+AU  - Liang, Siyuan
+AU  - Liu, Jiayang
+AU  - Zhai, Jiecheng
+AU  - Fang, Tianmeng
+AU  - Tu, Rongcheng
+AU  - Liu, Aishan
+AU  - Cao, Xiaochun
+AU  - Tao, Dacheng
+PY  - 2026
+DA  - 2026/03/06
+TI  - T2VShield: Model-Agnostic Jailbreak Defense for Text-to-Video Models
+JO  - International Journal of Computer Vision
+SP  - 144
+VL  - 134
+IS  - 4
+AB  - The rapid advancement of generative artificial intelligence has positioned text-to-video (T2V) models as essential components for building future multimodal world simulators. However, current T2V systems remain highly susceptible to jailbreak attacks, where carefully crafted prompts circumvent safety mechanisms and induce the generation of harmful or unsafe content. Such vulnerabilities severely undermine the reliability and security of simulation-driven applications. In this work, we present T2VShield, a comprehensive and model-agnostic defense framework designed to safeguard T2V models against jailbreak attacks. Our approach first systematically examines the three critical stages of T2V security (i.e., input, model, and output stages) and reveals inherent limitations in existing defenses, including (i) prompt structures that exploit semantic ambiguities, (ii) the challenge of detecting malicious content in high-dimensional and temporally dynamic outputs, and (iii) the rigidity of model-centric mitigation strategies. Based on the observations, T2VShield integrates an input rewriting mechanism based on Chain-of-Thought (CoT) reasoning and multimodal GraphRAG retrieval, enabling semantic sanitization of malicious prompts at the input level. Additionally, we introduce a multi-scope output detection module to capture both local anomalies and global inconsistencies from multi-timescale slicing and multimodal feature fusion, ensuring robust, time-aware defense. Crucially, T2VShield is plug-and-play, requiring no access to internal model parameters and supporting both open- and closed-source T2V systems. Extensive evaluations across two open-source and three commercial T2V platforms show that T2VShield reduces jailbreak success rates by up to 35% compared to state-of-the-art baselines. Furthermore, we design a human-centered audiovisual evaluation protocol to assess perceptual safety, highlighting the critical role of visual defense in enhancing the trustworthiness of next-generation multimodal simulators. Our code can be found at https://anonymous.4open.science/r/ICJV2025-A818/.
+SN  - 1573-1405
+UR  - https://doi.org/10.1007/s11263-025-02724-9
+DO  - 10.1007/s11263-025-02724-9
+ID  - Liang2026
+ER  - 

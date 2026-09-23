@@ -1,0 +1,24 @@
+TY  - JOUR
+AU  - Ren, Guoqiang
+AU  - Hou, Ming
+AU  - Yang, Xiaoping
+AU  - Huang, Yanqi
+AU  - Li, Da
+AU  - Zhang, Ning
+AU  - Liu, Pengfei
+AU  - Ye, Honghua
+AU  - Chen, Zhen
+AU  - Chen, Hongping
+PY  - 2025
+DA  - 2025/11/20
+TI  - PlaqueCap: lesion-centered captioning of atherosclerotic plaques in intravascular ultrasound using vision-language models and prompt injection
+JO  - npj Digital Medicine
+SP  - 702
+VL  - 8
+IS  - 1
+AB  - Accurate characterization of atherosclerotic plaques in intravascular ultrasound (IVUS) imaging is essential for evaluating coronary artery disease and guiding clinical interventions. Traditional methods rely on handcrafted features and rule-based algorithms, which lack adaptability to diverse lesion morphologies and offer limited explainability. To address these challenges, this work introduces PlaqueCap, a lesion-centered captioning framework that generates clinically meaningful, natural language descriptions directly from IVUS images. A central challenge is ensuring the generated text is grounded in the specific pathology of the lesion. PlaqueCap solves this by performing high-fidelity segmentation to localize the plaque, then using a Lesion Prompt Injection (LPI) module to inject spatial information into a pre-trained vision-language model, focusing on pathological characteristics. Experimental results on a curated IVUS dataset show PlaqueCap achieves accurate lesion localization and classification, producing detailed, clinically interpretable descriptions surpassing baselines in quantitative metrics and expert evaluation. This offers a paradigm for explainable AI in intravascular imaging and automated reporting in interventional cardiology.
+SN  - 2398-6352
+UR  - https://doi.org/10.1038/s41746-025-02044-9
+DO  - 10.1038/s41746-025-02044-9
+ID  - Ren2025
+ER  - 

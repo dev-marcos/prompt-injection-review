@@ -1,0 +1,29 @@
+TY  - CONF
+AU  - Zhao, Xinzhe
+AU  - Li, Bohan
+AU  - Zhuo, Junnan
+AU  - Wu, Wenlong
+AU  - Huang, Ruilong
+AU  - Liu, Yuanrui
+AU  - Wang, Haofen
+AU  - Dai, Hua
+AU  - Nguyen, Quoc Viet Hung
+ED  - Zhu, Feida
+ED  - Yu, Philip S.
+ED  - Nadamoto, Akiyo
+ED  - Lim, Ee-Peng
+ED  - Shim, Kyuseok
+ED  - Ding, Wei
+ED  - Zhang, Bingxue
+PY  - 2026
+DA  - 2026//
+TI  - HBS-KGLLM: A General Framework for Generating Knowledge Graphs for Jailbreaking
+BT  - Database Systems for Advanced Applications
+SP  - 431
+EP  - 446
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Although large language models(LLMs) have been applied across various fields and achieved remarkable success, concerns have also been raised regarding the potential for generating harmful content. Jailbreak, an emerging research direction, aims to bypass the safety mechanisms of LLMs and induce undesired responses. Research on jailbreak attack methods can reveal potential safety risks in LLMs and better guide researchers in developing corresponding defense strategies. However, many existing attack methods either require access to the internal structure of the target model, or incur high costs due to the need to design complex nested scenarios. We propose a general and efficient jailbreak framework for LLMs that integrates knowledge graph(KG), called HBS-KGLLM, which consists of three main components: (1) Harmful Behavior Substitution, (2) KG template nesting, and (3) KG-to-text conversion. We evaluated HBS-KGLLM on five SOTA LLMs, including both open-source and closed-source models. Extensive experiments demonstrate that HBS-KGLLM significantly improves the attack success rate compared to existing baselines, while also greatly reducing both time and financial costs. Using GPT-4 as an example, our method improves the ASR by nearly 25% compared to the current SOTA method, while reducing the time for a successful single-sample attack by nearly 55%.
+SN  - 978-981-95-3906-2
+ID  - 10.1007/978-981-95-3906-2_31
+ER  - 

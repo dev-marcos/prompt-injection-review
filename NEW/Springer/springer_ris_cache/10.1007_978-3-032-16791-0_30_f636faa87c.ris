@@ -1,0 +1,20 @@
+TY  - CONF
+AU  - Naik, Dishita
+AU  - Naik, Ishita
+AU  - Naik, Nitin
+ED  - Naik, Nitin
+ED  - Jenkins, Paul
+ED  - Prajapat, Shaligram
+ED  - Grace, Paul
+PY  - 2026
+DA  - 2026//
+TI  - When Generative AI Prompts Bite Back: Investigating Different Types of Prompt Injection Attacks on Large Language Models (LLMs) and Their Prevention Methods
+BT  - Contributions Presented at the International Conference on Computing, Communication, Cybersecurity & AI, July 10–11, 2025, Birmingham, UK
+SP  - 619
+EP  - 643
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Large Language Models (LLMs) are designed to exhibit a high degree of flexibility, enabling them to adapt to a wide range of tasks expressed in natural language. LLMs predominantly operate through a prompt-based paradigm, wherein all interactions are facilitated through natural language prompts. The flexibility and expressive power of LLM prompts also render them a primary vector for prompt injection attacks due to the complex and often opaque structural characteristics of prompt composition, as well as the virtually unbounded attack surface introduced by the infinite variability of natural language expressions. The inherent complexity of prompt structures, coupled with their representation through the infinitely variable medium of natural language, creates opportunities for attackers to exploit these LLM prompts in ways that can manipulate the behaviour of the LLM and enable it to generate unintended or adversarial outputs. Such potential attacks pose significant challenges to the safe and trustworthy deployment of LLMs, thereby necessitating rigorous investigation and a comprehensive understanding to develop effective mitigation strategies. This paper will investigate different types of prompt injection attacks on LLMs. Firstly, it will investigate prompts in LLMs, and various elements of the LLM prompt. Secondly, it will investigate each type of prompt injection attack in detail including its associated attack vectors and an explicit difference with other types of prompt injection attacks. Thirdly, it will investigate several risks associated with prompt injection attacks on LLMs. Lastly, it will investigate several prevention methods for prompt injection attacks on LLMs.
+SN  - 978-3-032-16791-0
+ID  - 10.1007/978-3-032-16791-0_30
+ER  - 

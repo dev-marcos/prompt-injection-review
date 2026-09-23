@@ -1,0 +1,21 @@
+TY  - CONF
+AU  - Ramesh, Vikrant
+AU  - Vishwannth, J.
+AU  - Aishwarya, R.
+AU  - Galdys, Aruna
+AU  - Vetriselvi, V.
+ED  - Bansal, Jagdish Chand
+ED  - Jamwal, Prashant
+ED  - Hussain, Shahid
+PY  - 2026
+DA  - 2026//
+TI  - An Integrated Framework for Jailbreak Prevention Using Knowledge Graphs and Large Language Models
+BT  - Sustainable Computing and Intelligent Systems
+SP  - 16
+EP  - 26
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - LLMs (Large Language Models) have the capability for both natural language understanding and Text generation. The open ended responses by LLMs pose a significant security risk to users of LLMs especially when they try to use malicious prompts. Routine deployment in many security demanding domains makes defenses against adversarial jailbreak attacks which aim to bypass ethical guards, absolutely essential. We have developed an multilayer defense framework that introduces a prompt analysis LLM. This component was finetuned on an augmented jailbreak dataset and obtains contextual information from a knowledge graph constructed based on official guidelines. A lightweight multilayer perceptron model is used along with a pretrained language model (PLM) to classify the risk potential of a threat. Using the final generated response, a feedback loop will reinforce the constructed knowledge graph through the detection of adversarial output provided by the LLM. This improves the interpretability of the model without loss in model accuracy compared to typical adversarial classification methods used in other researches.
+SN  - 978-3-032-22917-5
+ID  - 10.1007/978-3-032-22917-5_2
+ER  - 

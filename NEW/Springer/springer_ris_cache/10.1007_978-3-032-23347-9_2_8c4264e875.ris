@@ -1,0 +1,19 @@
+TY  - CONF
+AU  - Salem, Hamza
+AU  - Ghareeb, Ahmad AL
+AU  - Mazzara, Manuel
+ED  - Barolli, Leonard
+ED  - K. G.  Seah, Winston
+ED  - Woungang, Isaac
+PY  - 2026
+DA  - 2026//
+TI  - Adversarial Attacks on Large Language Model Applications: Prompt Injection and Token Drain Exploitation
+BT  - Advanced Information Networking and Applications
+SP  - 16
+EP  - 27
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Large Language Models (LLMs) have become integral components in modern applications, from customer service chatbots to code completion tools. However, their widespread adoption has introduced significant security vulnerabilities. This paper investigates two critical attack vectors against LLM-based applications: prompt injection attacks and token drain attacks via false positive API responses. Prompt injection attacks exploit the model’s instruction-following capabilities to manipulate system behavior, bypass security constraints, and extract sensitive information. Token drain attacks represent a novel form of resource exhaustion where adversaries exploit cross-API interactions by generating false positive responses that trigger excessive token consumption in downstream LLM applications without the application’s knowledge. We analyze the mechanisms, attack vectors, and potential mitigations for both attack classes, providing a comprehensive security assessment based on recent research findings. Our analysis reveals that existing defenses are insufficient, with prompt injection attacks achieving success rates exceeding 84% in agent-based systems, and token drain attacks presenting a significant threat to API-based LLM ecosystems.
+SN  - 978-3-032-23347-9
+ID  - 10.1007/978-3-032-23347-9_2
+ER  - 

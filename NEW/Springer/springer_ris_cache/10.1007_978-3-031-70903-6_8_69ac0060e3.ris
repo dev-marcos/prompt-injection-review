@@ -1,0 +1,24 @@
+TY  - CONF
+AU  - Shang, Shang
+AU  - Yao, Zhongjiang
+AU  - Yao, Yepeng
+AU  - Su, Liya
+AU  - Fan, Zijing
+AU  - Zhang, Xiaodan
+AU  - Jiang, Zhengwei
+ED  - Garcia-Alfaro, Joaquin
+ED  - Kozik, Rafał
+ED  - Choraś, Michał
+ED  - Katsikas, Sokratis
+PY  - 2024
+DA  - 2024//
+TI  - IntentObfuscator: A Jailbreaking Method via Confusing LLM with Prompts
+BT  - Computer Security – ESORICS 2024
+SP  - 146
+EP  - 165
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - In the era of Large Language Models (LLMs), developers establish content review conditions to comply with legal, policy, and societal requirements, aiming to prevent the generation of sensitive or restricted content due to considerations like social security, privacy, and criminal justice. However, persistent attempts by attackers and security researchers to bypass content security measures have led to the emergence of various jailbreak technologies, including role-playing, adversarial suffixes, encryption, and more.
+SN  - 978-3-031-70903-6
+ID  - 10.1007/978-3-031-70903-6_8
+ER  - 

@@ -1,0 +1,19 @@
+TY  - JOUR
+AU  - Yuan, Mengying
+AU  - Zhang, Zhiyong
+AU  - Quan, Gaoyuan
+AU  - Pan, Junyan
+AU  - Fu, Yu
+PY  - 2026
+DA  - 2026/09/20
+TI  - A novel data-level prompt injection attack against graph prompt learning
+JO  - Cybersecurity
+SP  - 220
+VL  - 9
+IS  - 1
+AB  - Graph Neural Networks (GNNs) are increasingly deployed in security-critical applications, including fraud detection, recommendation integrity analysis, and scientific knowledge mining. Recently, Graph Prompt Learning (GPL) has emerged as a parameter-efficient paradigm for adapting pretrained GNNs to downstream tasks. By optimizing only a small set of prompt parameters while keeping the pretrained encoder frozen, GPL enables efficient task adaptation under limited supervision. Despite its empirical success, the security implications of this paradigm remain largely unexplored. In this work, we investigate the vulnerability of GPL to data-level manipulations and introduce a novel threat, termed the data-level prompt injection attack. Unlike conventional attacks that rely on poisoning pretraining data or modifying model parameters, the proposed attack operates entirely at the downstream prompt learning stage. Specifically, an attacker injects a small number of carefully crafted malicious samples into the training dataset, without altering the pretrained encoder or the prompt learning algorithm. To realize this threat, we propose Graph Prompt Injection Attack (GPIA), which embeds carefully designed subgraph into training graphs to influence prompt optimization. Extensive experiments on multiple benchmarks show that GPIA achieves high attack success rates under low injection ratios while maintaining clean accuracy.
+SN  - 2523-3246
+UR  - https://doi.org/10.1186/s42400-026-00650-y
+DO  - 10.1186/s42400-026-00650-y
+ID  - Yuan2026
+ER  - 

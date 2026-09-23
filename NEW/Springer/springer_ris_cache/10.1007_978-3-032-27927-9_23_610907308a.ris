@@ -1,0 +1,19 @@
+TY  - CONF
+AU  - Kucharski, Miłosz
+ED  - Zamojski, Wojciech
+ED  - Mazurkiewicz, Jacek
+ED  - Sugier, Jarosław
+ED  - Walkowiak, Tomasz
+ED  - Kacprzyk, Janusz
+PY  - 2026
+DA  - 2026//
+TI  - Compliance-First RAG with Inference Isolation: Embedding Choice and Prompt-Injection Robustness in a Polish Enterprise Corpus
+BT  - Dependable Computer Systems: Methods, Models, and Applications
+SP  - 243
+EP  - 251
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Retrieval-Augmented Generation (RAG) is a practical way to turn internal documents into a question answering assistant, but many deployments still send user queries and retrieved text to external inference endpoints at query time. For sensitive enterprise knowledge bases, this creates an awkward situation: the system may be helpful, yet the data flow is hard to defend and even harder to audit.
+SN  - 978-3-032-27927-9
+ID  - 10.1007/978-3-032-27927-9_23
+ER  - 

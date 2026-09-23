@@ -1,0 +1,24 @@
+TY  - CONF
+AU  - Tao, Zhe
+AU  - Xu, Bing
+AU  - Yang, Muyun
+AU  - Guan, Hongjiao
+AU  - Lu, Wenpeng
+AU  - Cao, Hailong
+AU  - Zhu, Conghui
+AU  - Zhao, Tiejun
+ED  - Mao, Xian-Ling
+ED  - Ren, Zhaochun
+ED  - Yang, Muyun
+PY  - 2026
+DA  - 2026//
+TI  - Thoughts Behind Attack: Enhancing Security Against Jailbreak Attacks Using Chain-of-Thought
+BT  - Natural Language Processing and Chinese Computing
+SP  - 196
+EP  - 207
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - With the rapid development and widespread adoption of large language models (LLMs), the safety of LLMs has become a major concern. The inexplicability and unsafe outputs of LLMs pose significant obstacles to achieving artificial general intelligence (AGI). To enhance the safety of LLMs, researchers have developed various jailbreak attack methods and defense methods. In this paper, we propose SafeCoT, a novel defense method leveraging Chain-of-Thought (CoT) without any optimization or training. We believe that certain jailbreak attacks share a common logic, and based on this insight, we present SafeCoT. Specifically, to help LLMs understand the thoughts behind jailbreak attacks, we propose a jailbreak attack taxonomy and a corresponding jailbreak prompts dataset, JATD. Subsequently, we introduce SafeCoT, which consists of two parts: System Prompt and Safe Suffix. For different scenarios, we develop two forms of Safe Suffix, Manual-CoT and Zero-Shot-CoT. Through extensive experiments on 10 jailbreak attacks and 3 different LLMs, the results demonstrate that SafeCoT significantly reduces the attack success rate while maintaining good general performance. We hope our work can provide new perspectives and insights into LLM safety, and encourage further research to explore the underlying logic and mechanisms of jailbreak attacks.
+SN  - 978-981-95-3352-7
+ID  - 10.1007/978-981-95-3352-7_16
+ER  - 

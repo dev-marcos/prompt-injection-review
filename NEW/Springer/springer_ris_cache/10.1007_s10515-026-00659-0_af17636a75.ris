@@ -1,0 +1,18 @@
+TY  - JOUR
+AU  - Li, Qiuxiang
+AU  - Xu, Ke
+AU  - Qu, Yubin
+AU  - Wu, Jianping
+PY  - 2026
+DA  - 2026/08/21
+TI  - Fine-tuning as Jailbreaking: A data-centric red teaming framework via logic injection
+JO  - Automated Software Engineering
+SP  - 119
+VL  - 33
+IS  - 4
+AB  - The use of Reasoning Fine-Tuning (RFT) for large language models has become a mainstream paradigm for enhancing logical abilities, but simultaneously introduces data supply chain security risks. The current field faces a key problem: malicious actors can compromise security alignment through logic injection, and existing white-box and black-box attack studies struggle to fully reveal this deep threat mechanism. To address this, this research proposes a red-teaming testing method called CRAFT, or “Fine-tuning as Jailbreak.” This method employs a two-stage strategy: first, it uses an Oracle model to generate covert adversarial Chain-of-Thought (CoT) samples for logic camouflage; then, it uses a prefix-guided RFT strategy to forcibly overwrite the model’s refusal mechanism, solidifying malicious logic into the weights. Experiments on Llama-3.1 and Qwen2.5 not only confirm that the root cause of safety guardrail failure lies in the harmful content of the data rather than the fine-tuning mechanism itself, but also demonstrate that CRAFT achieves a saturated jailbreak success rate (JSR) of at least 92% on HarmBench and CLAS benchmarks. Furthermore, thanks to its fluent text features, CRAFT evades perplexity-based statistical detection, although its success rate drops from over 92% to 12–18% under semantic auditing with Llama Guard, which bounds the threat to the internal-alignment layer and indicates that external moderation remains an effective mitigation. A matched-access ablation further isolates the adversarial CoT and shows that the harmful content of the data, not the reasoning chain, drives the jailbreak, so the chain-of-thought mainly contributes fluency-based detection evasion and capability retention rather than attack success. These results expose a vulnerability of the RFT data supply chain to logic injection and point to the need for fine-tuning-stage defenses that audit the harmful content of poisoned fine-tuning data.
+SN  - 1573-7535
+UR  - https://doi.org/10.1007/s10515-026-00659-0
+DO  - 10.1007/s10515-026-00659-0
+ID  - Li2026
+ER  - 

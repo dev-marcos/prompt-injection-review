@@ -1,0 +1,15 @@
+TY  - JOUR
+AU  - Humble, Niklas
+PY  - 2026
+DA  - 2026/08/20
+TI  - Ethical Implications of Prompt Injection in AI-mediated Grading: An Adversarial Red-Team Evaluation
+JO  - Journal of Academic Ethics
+SP  - 85
+VL  - 24
+IS  - 3
+AB  - The increasing integration of AI tools into academic work introduces both opportunities and new security risks, particularly concerning the integrity of evaluative practices. This study investigates the robustness of AI‑mediated work in higher education by examining whether indirect prompt injection attacks can manipulate course assessment outcomes. The aim is to examine how vulnerable AI‑supported grading processes are to hidden adversarial inputs and to explore potential implications for academic trust, fairness, and integrity in AI-mediated assessment. The study applies a structured adversarial security evaluation, drawing on red‑team testing methodologies. A synthetic student submission was generated and paired with five different indirect prompt injection attempts using combinations of different adversarial prompt techniques. Each attempt was iterated multiple times across different file formats against the same AI tool (Microsoft Copilot) under realistic usage conditions. The results show that several prompt injection attempts successfully altered the output, with some attack strategies achieving success rates between 94 and 100%, while remaining undetected in the output. These findings highlight a discrepancy between security safeguards and system behaviour, raising concerns for AI‑mediated academic work. The study argues for development of clear guidelines and policies for AI use, improved professional development, and standardised assessments for prompt injection resilience in organisations.
+SN  - 1572-8544
+UR  - https://doi.org/10.1007/s10805-026-09758-9
+DO  - 10.1007/s10805-026-09758-9
+ID  - Humble2026
+ER  - 

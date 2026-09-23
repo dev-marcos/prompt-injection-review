@@ -1,0 +1,20 @@
+TY  - CONF
+AU  - Wang, Xueting
+AU  - Wei, Yanjie
+ED  - Sun, Fuchun
+ED  - Wang, Hesheng
+ED  - Long, Han
+ED  - Wei, Yifei
+ED  - Yu, Hongqi
+PY  - 2025
+DA  - 2025//
+TI  - Defender: The Possibility of Repairing Jailbreak Defects
+BT  - Proceedings of the 3rd International Conference on Machine Learning, Cloud Computing and Intelligent Mining (MLCCIM2024)
+SP  - 198
+EP  - 209
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Large Language Models (LLMs) are currently very popular and have been widely used. However, despite the success, LLMs are not entirely safe. This has been confirmed by jailbreak attacks. The main difficulty of fixing the leak is that the training datasets for LLMs are huge and not entirely harmless. There is a risk of generating harmful content based on user prompts when generating outputs, although various developers of large models have made restrictions.
+SN  - 978-981-96-1694-7
+ID  - 10.1007/978-981-96-1694-7_17
+ER  - 

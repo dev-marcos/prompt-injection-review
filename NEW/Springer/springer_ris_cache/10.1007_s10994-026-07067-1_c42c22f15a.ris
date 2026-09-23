@@ -1,0 +1,19 @@
+TY  - JOUR
+AU  - Jing, Sijia
+AU  - Cao, Hongye
+AU  - Wang, Boyan
+AU  - Huo, Jing
+AU  - Gao, Yang
+PY  - 2026
+DA  - 2026/06/18
+TI  - Progressive Induction-Aware Optimization for LLMs Safety Under Multi-turn Jailbreaks
+JO  - Machine Learning
+SP  - 151
+VL  - 115
+IS  - 7
+AB  - With the rapid development of large language models (LLMs), model safety has been a critical concern in key domains such as the humanities, math, and education. Existing safety alignment methods that rely on supervised fine-tuning or preference optimization are generally effective against single-turn jailbreak attacks. However, they remain vulnerable to multi-turn jailbreaks that accumulate inductive risk across dialogue turns and progressively erode safety constraints. To address this limitation, we propose Progressive Induction-Aware Representation Separation (PIARS), a novel optimization framework that explicitly quantifies and mitigates inductive risks under multi-turn jailbreaks. PIARS first introduces an induction degree that measures how risk accumulates across turns. This degree is integrated into a multi-turn safety objective that enforces representation separation between safe and unsafe dialogue states, improving discriminative ability against contextual drifts. To ensure that this separation remains both effective and practical, PIARS augments the objective with auxiliary constraints for safety boundaries and utility preservation. Notably, we progressively adjust the multi-objective weights to achieve balance between safety and utility during the optimization process. Extensive experiments on several widely used LLMs demonstrate that PIARS achieves a superior defense against multi-turn jailbreaks, reducing attack success rates by over 50% on average compared to strong baselines, while simultaneously lowering over-refusal and preserving model utility. Our code is available at: https://github.com/jsj2024/PIARS.
+SN  - 1573-0565
+UR  - https://doi.org/10.1007/s10994-026-07067-1
+DO  - 10.1007/s10994-026-07067-1
+ID  - Jing2026
+ER  - 

@@ -1,0 +1,19 @@
+TY  - JOUR
+AU  - Torrielli, Federico
+AU  - Locci, Stefano
+AU  - Rapp, Amon
+AU  - Di Caro, Luigi
+PY  - 2026
+DA  - 2026/07/01
+TI  - Exploiting large language models in peer review: indirect prompt injection attacks and integrity probes
+JO  - Scientometrics
+SP  - 4889
+EP  - 4951
+VL  - 131
+IS  - 7
+AB  - Large language models are beginning to enter peer review as tools for summarizing manuscripts, drafting evaluations, and reducing reviewer workload. Yet this use creates a security problem specific to evaluative settings: the manuscript being judged can also contain hidden instructions that shape the model’s judgment. We investigate this risk through indirect prompt injection, where hidden text embedded in a manuscript is processed like a benign prompt by a public chatbot during review generation. We introduce an Author-Reviewer-Organizer framework that distinguishes author-side manipulation from organizer-side integrity checks, and use it to evaluate both offensive payloads, which steer reviews toward positive or negative judgments, and integrity-probing payloads, which trigger refusal, watermarking, or external-site redirection. The redirection payload is introduced here as a novel integrity-check mechanism. In experiments on 100 OpenReview papers, two public chatbot systems, five payload families, two custom prompt approaches, three injection positions, and five repeated runs per condition, we generate 42000 model outputs. Hidden instructions are highly effective: positive steering, refusal, and external-site redirection exceed 98% success on both systems; watermarking remains high but less reliable, reaching 94.27% on ChatGPT and 88.17% on Gemini; and negative steering is near-ceiling on ChatGPT but lower on Gemini. Vulnerability varies with payload design, model, and document position. These findings show that current models exhibit “contextual blindness”: they do not reliably separate manuscript content from embedded control text. This weakness threatens the validity of AI-assisted review, while also creating a dual-use channel that organizers may repurpose for detection. Peer-review systems that rely on public LLMs therefore require stronger safeguards between document content and instructions before they can be trusted in evaluative workflows.
+SN  - 1588-2861
+UR  - https://doi.org/10.1007/s11192-026-05695-x
+DO  - 10.1007/s11192-026-05695-x
+ID  - Torrielli2026
+ER  - 

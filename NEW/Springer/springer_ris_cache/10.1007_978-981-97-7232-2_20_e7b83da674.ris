@@ -1,0 +1,25 @@
+TY  - CONF
+AU  - Xu, Xiaowei
+AU  - Xu, Yixiao
+AU  - Chen, Xiong
+AU  - Chen, Peng
+AU  - Li, Mohan
+AU  - Sun, Yanbin
+ED  - Zhang, Wenjie
+ED  - Tung, Anthony
+ED  - Zheng, Zhonglong
+ED  - Yang, Zhengyi
+ED  - Wang, Xiaoyang
+ED  - Guo, Hongjie
+PY  - 2024
+DA  - 2024//
+TI  - Watch Your Words: Successfully Jailbreak LLM by Mitigating the “Prompt Malice”
+BT  - Web and Big Data
+SP  - 295
+EP  - 309
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Large Language Models (LLMs) have shown outstanding generative and contextual understanding capabilities, and have been widely used and deployed in various applications. Alignment can significantly enhance the security of LLM. However, even aligned LLMs are still vulnerable to persistent jailbreak attacks. In this paper, we propose a novel jailbreak attack against LLMs. We observe that kind words have an inducing effect, which can be leveraged to increase the attack success rate of jailbreaks. Based on the above observations, we combine multiple strategies to propose a jailbreak attack based on textual malice mitigation. Experiments on various LLMs demonstrate that a high success rate of the attack can be achieved across different models. Additionally, we conduct zero-shot and few-shot experiments on the jailbreak results, which show that although aligned LLMs can distinguish malicious outputs, they may still be misled by carefully constructed prompts. This conclusion also provides a new perspective for understanding the security mechanisms of LLMs.
+SN  - 978-981-97-7232-2
+ID  - 10.1007/978-981-97-7232-2_20
+ER  - 

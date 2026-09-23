@@ -1,0 +1,22 @@
+TY  - CONF
+AU  - Fenza, Giuseppe
+AU  - Gallo, Mariacristina
+AU  - Loia, Vincenzo
+AU  - Nicolosi, Alessandro
+AU  - Stanzione, Claudio
+ED  - Ting, I-Hsien
+ED  - Karampelas, Panagiotis
+ED  - Day, Min-Yuh
+ED  - Alhajj, Reda
+PY  - 2026
+DA  - 2026//
+TI  - Detecting Jailbreaking Prompts: an Anti-Persuasion Filter Framework
+BT  - Advances in Social Networks Analysis and Mining
+SP  - 165
+EP  - 179
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - In recent years, significant advancements in Generative Artificial Intelligence (GenAI) have resulted in an expansion of its applications and an increased susceptibility to cyber-attacks. These attacks can bypass ethical guidelines and integrated protections, posing a significant threat to cybersecurity and information integrity, such as prompt injections aiming to produce and spread misinformation. To develop robust cybersecurity solutions, it is essential to understand the vulnerabilities of GenAI and analyze the characteristics of potential attacks. This manuscript proposes a mechanism for identifying jailbreaking prompts for manipulating Large Language Models (LLMs). The designed process involves the interaction between an LLM Attacker and an LLM Victim. LLM Attacker generates potential jailbreaking prompts to induce the LLM Victim to generate unethical content. The prompts and their corresponding persuasion success are collected during their interaction. In this way, a new synthetic dataset of 3000 prompts has been constructed. Such a dataset is exploited to train a new model for detecting hidden persuasion in prompts that can induce an LLM to produce deviating content. This new model, assisted by algorithms for eXaplainable Artificial Intelligence (xAI), works as an anti-persuasion filter interposed between the input prompt and the victim model. It identifies attempts to mislead LLM and tries to neutralize them by modifying words recognized as crucial by xAI algorithms like SHAP and LIME. Experimentation reveals that adopting SHAP and removing the first ten most important words in the original prompt allows for neutralizing $$80\%$$80%of persuasive prompts.
+SN  - 978-3-031-85240-4
+ID  - 10.1007/978-3-031-85240-4_14
+ER  - 

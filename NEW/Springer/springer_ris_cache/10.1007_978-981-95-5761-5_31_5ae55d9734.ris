@@ -1,0 +1,26 @@
+TY  - CONF
+AU  - Zheng, Jian
+AU  - Liu, Hanqing
+AU  - Zhou, Lifeng
+AU  - Yan, Huanqian
+AU  - Liu, Peilin
+ED  - Kittler, Josef
+ED  - Xiong, Hongkai
+ED  - Yang, Jian
+ED  - Chen, Xilin
+ED  - Lu, Jiwen
+ED  - Lin, Weiyao
+ED  - Yu, Jingyi
+ED  - Zheng, Weishi
+PY  - 2026
+DA  - 2026//
+TI  - Boosting Jailbreak Transferability for Large Language Models
+BT  - Pattern Recognition and Computer Vision
+SP  - 445
+EP  - 458
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Large language models have heightened concerns regarding safety alignment challenges, particularly stemming from jailbreak attacks that circumvent security measures to generate malicious outputs. To address the limitations of existing methods such as GCG, which achieve strong performance on specific models but suffer from efficacy degradation and poor transferability on unseen models, we propose a novel jailbreak method extending GCG. This approach integrates three core components: a scenario induction template, optimized suffix selection, and the re-suffix attack mechanism to minimize output inconsistencies. Extensive experiments across diverse benchmarks demonstrate the superiority of the proposed method, achieving near-perfect success rates (approaching 100%) in both direct attacks and cross-model transferability.
+SN  - 978-981-95-5761-5
+ID  - 10.1007/978-981-95-5761-5_31
+ER  - 

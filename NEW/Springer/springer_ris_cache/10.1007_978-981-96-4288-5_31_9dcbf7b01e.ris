@@ -1,0 +1,23 @@
+TY  - CONF
+AU  - Hoang, The-Anh
+AU  - Nguyen, Xuan-Tung
+AU  - Pham-Vo, Quynh-Nhu
+AU  - Dang-Hoang, Nhat-Hung
+ED  - Buntine, Wray
+ED  - Fjeld, Morten
+ED  - Tran, Truyen
+ED  - Tran, Minh-Triet
+ED  - Huynh Thi Thanh, Binh
+ED  - Miyoshi, Takumi
+PY  - 2025
+DA  - 2025//
+TI  - Exploring Prompt Injection: Methodologies and Risks with an Interactive Chatbot Demonstration
+BT  - Information and Communication Technology
+SP  - 398
+EP  - 409
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Large Language Models (LLMs) offer significant advancements in computation and generative capabilities, enabling wide-ranging applications. However, integrating LLMs into services introduces risks, particularly through prompt injection attacks, where user inputs can manipulate model behavior. This paper explores common strategies for prompt injection and highlights the associated risks in LLM-integrated applications. To demonstrate this vulnerability, we present Injextion, a chatbot where users attempt to exploit the Llama 3 model to obtain a hidden key. Additionally, we implement a minimal TLS handshake with a digital signature to securely transfer chat messages.
+SN  - 978-981-96-4288-5
+ID  - 10.1007/978-981-96-4288-5_31
+ER  - 

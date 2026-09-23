@@ -1,0 +1,15 @@
+TY  - JOUR
+AU  - Cai, Yunfu
+PY  - 2026
+DA  - 2026/03/31
+TI  - Prompt injection attacks on educational large language models for higher and vocational education
+JO  - Scientific Reports
+SP  - 15594
+VL  - 16
+IS  - 1
+AB  - Large Language Models (LLMs) are rapidly being integrated into educational systems for automated grading, intelligent tutoring, question answering, and instructional support. Their effectiveness stems from instruction following through natural-language prompts, yet this design also creates a critical vulnerability: prompt injection. By embedding adversarial instructions into seemingly legitimate student inputs, attackers can override task constraints, manipulate rubric execution, and induce policy violations. This risk is amplified in education due to high-frequency interactions, the presence of sensitive student data, and the high stakes of assessment, guidance, and credentialing in both higher education and vocational training. We study prompt injection in educational LLM pipelines and introduce a structured attack generation framework tailored to learning-oriented prompts. Our method decomposes composite educational prompts into functional segments, constructs role-consistent attack vectors, composes stealthy injections inside pedagogically plausible student responses, and adapts payloads to rubric language and grading conventions. Experiments on four educational benchmarks show that our approach achieves consistently high attack success while maintaining strong stealth. Specifically, we obtain attack success rates of 0.82 on ASAP, 0.79 on SciEntsBank, 0.76 on EduBench, and 0.73 on MMLU-Edu, outperforming competitive baselines by 0.19–0.33 absolute on average, and inducing substantial grade inflation under realistic black-box constraints. These results demonstrate that educational prompts expose structural attack surfaces not captured by generic safety evaluations, motivating security-aware design and testing for educational LLM deployments.
+SN  - 2045-2322
+UR  - https://doi.org/10.1038/s41598-026-46563-1
+DO  - 10.1038/s41598-026-46563-1
+ID  - Cai2026
+ER  - 

@@ -1,0 +1,23 @@
+TY  - JOUR
+AU  - Xie, Yueqi
+AU  - Yi, Jingwei
+AU  - Shao, Jiawei
+AU  - Curl, Justin
+AU  - Lyu, Lingjuan
+AU  - Chen, Qifeng
+AU  - Xie, Xing
+AU  - Wu, Fangzhao
+PY  - 2023
+DA  - 2023/12/01
+TI  - Defending ChatGPT against jailbreak attack via self-reminders
+JO  - Nature Machine Intelligence
+SP  - 1486
+EP  - 1496
+VL  - 5
+IS  - 12
+AB  - ChatGPT is a societally impactful artificial intelligence tool with millions of users and integration into products such as Bing. However, the emergence of jailbreak attacks notably threatens its responsible and secure use. Jailbreak attacks use adversarial prompts to bypass ChatGPT’s ethics safeguards and engender harmful responses. This paper investigates the severe yet under-explored problems created by jailbreaks as well as potential defensive techniques. We introduce a jailbreak dataset with various types of jailbreak prompts and malicious instructions. We draw inspiration from the psychological concept of self-reminders and further propose a simple yet effective defence technique called system-mode self-reminder. This technique encapsulates the user’s query in a system prompt that reminds ChatGPT to respond responsibly. Experimental results demonstrate that self-reminders significantly reduce the success rate of jailbreak attacks against ChatGPT from 67.21% to 19.34%. Our work systematically documents the threats posed by jailbreak attacks, introduces and analyses a dataset for evaluating defensive interventions and proposes the psychologically inspired self-reminder technique that can efficiently and effectively mitigate against jailbreaks without further training.
+SN  - 2522-5839
+UR  - https://doi.org/10.1038/s42256-023-00765-8
+DO  - 10.1038/s42256-023-00765-8
+ID  - Xie2023
+ER  - 

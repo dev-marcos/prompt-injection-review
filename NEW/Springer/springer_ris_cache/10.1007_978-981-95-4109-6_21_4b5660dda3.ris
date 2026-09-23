@@ -1,0 +1,25 @@
+TY  - CONF
+AU  - Li, Laizhen
+AU  - Gao, Xitong
+AU  - Wang, Xuan
+AU  - Zhao, Juanjuan
+AU  - Ye, Kejiang
+ED  - Taniguchi, Tadahiro
+ED  - Leung, Chi Sing Andrew
+ED  - Kozuno, Tadashi
+ED  - Yoshimoto, Junichiro
+ED  - Mahmud, Mufti
+ED  - Doborjeh, Maryam
+ED  - Doya, Kenji
+PY  - 2026
+DA  - 2026//
+TI  - StreamGuard: A Streaming-Based Defense Against Jailbreaking Attacks in Large Language Models
+BT  - Neural Information Processing
+SP  - 301
+EP  - 316
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Large Language Models (LLMs) have achieved remarkable success in natural language processing but remain vulnerable to jailbreak attacks that bypass built-in safety mechanisms and induce the generation of harmful content. Existing defense methods often rely on static prompt modifications or post-generation filtering, neglecting the dynamic nature of the decoding process. In this paper, we propose StreamGuard, a lightweight and plug-and-play defense framework that enhances LLM safety by intervening during the decoding stage. StreamGuard integrates a self-review mechanism to assess the safety of intermediate outputs and conditionally performs prompt insertion to steer generation back to safe trajectories. Extensive experiments on two open-source instruction-tuned models (LLaMA3.1-8B-Instruct and Qwen2.5-7B-Instruct) against three representative jailbreak attacks (AutoDAN, GCG, DeepInception) demonstrate that StreamGuard significantly reduces attack success rates—dropping from 66% to 6% on AutoDAN—while preserving model utility. Our method requires no model fine-tuning, exhibits strong generalizability, and complements existing static defenses. We release our code and evaluation benchmarks to facilitate reproducibility and future research.
+SN  - 978-981-95-4109-6
+ID  - 10.1007/978-981-95-4109-6_21
+ER  - 

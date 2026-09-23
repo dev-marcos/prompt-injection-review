@@ -1,0 +1,25 @@
+TY  - CONF
+AU  - Garcia-Gasulla, Dario
+AU  - Tormos, Adrián
+AU  - Arias-Duart, Anna
+AU  - Hinjos, Daniel
+AU  - Molina-Sedano, Oscar
+AU  - Gurarajan, Ashwin Kumar
+AU  - Cardello, Maria Eugenia
+ED  - Törngren, Martin
+ED  - Gallina, Barbara
+ED  - Schoitsch, Erwin
+ED  - Troubitsyna, Elena
+ED  - Bitsch, Friedemann
+PY  - 2026
+DA  - 2026//
+TI  - Efficient Safety Retrofitting Against Jailbreaking for LLMs
+BT  - Computer Safety, Reliability, and Security. SAFECOMP 2025 Workshops
+SP  - 537
+EP  - 565
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Direct Preference Optimization (DPO) is a simple and efficient method to align LLMs using preference data, without needing an explicit reward model. This paper examines DPO’s effectiveness for improving model safety, specifically reducing harmful outputs under jailbreaking attacks, while keeping data and compute costs low. For that matter, Egida is introduced, a dataset covering 27 safety topics and 18 attack styles with both synthetic and human labels. State-of-the-art LLMs (Llama 3.1 8B, Llama 3.1 70B, Qwen 2.5 7B, Qwen 2.5 72B) are used to assess safety robustness, performance trade-offs, and over-refusal behavior. With only 2,000 training samples and minimal cost ($3 for 8B, $20 for 72B), models see 10–30% reductions in attack success rates, maintaining strong robustness across unseen attacks. Model size and family strongly influence model alignment, highlighting the importance of pre-training decisions. In order to support all the experiments conducted, a large independent assessment of human preference agreement with Llama Guard 3 8B is conducted and the associated dataset Egida-HSafe is released. Results show a low-cost, replicable way to enhance LLM safety, despite some impact on general performance.
+SN  - 978-3-032-02018-5
+ID  - 10.1007/978-3-032-02018-5_39
+ER  - 

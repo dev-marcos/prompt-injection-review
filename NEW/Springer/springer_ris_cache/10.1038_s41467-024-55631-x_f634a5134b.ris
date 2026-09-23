@@ -1,0 +1,22 @@
+TY  - JOUR
+AU  - Clusmann, Jan
+AU  - Ferber, Dyke
+AU  - Wiest, Isabella C.
+AU  - Schneider, Carolin V.
+AU  - Brinker, Titus J.
+AU  - Foersch, Sebastian
+AU  - Truhn, Daniel
+AU  - Kather, Jakob Nikolas
+PY  - 2025
+DA  - 2025/02/01
+TI  - Prompt injection attacks on vision language models in oncology
+JO  - Nature Communications
+SP  - 1239
+VL  - 16
+IS  - 1
+AB  - Vision-language artificial intelligence models (VLMs) possess medical knowledge and can be employed in healthcare in numerous ways, including as image interpreters, virtual scribes, and general decision support systems. However, here, we demonstrate that current VLMs applied to medical tasks exhibit a fundamental security flaw: they can be compromised by prompt injection attacks. These can be used to output harmful information just by interacting with the VLM, without any access to its parameters. We perform a quantitative study to evaluate the vulnerabilities to these attacks in four state of the art VLMs: Claude-3 Opus, Claude-3.5 Sonnet, Reka Core, and GPT-4o. Using a set of N = 594 attacks, we show that all of these models are susceptible. Specifically, we show that embedding sub-visual prompts in manifold medical imaging data can cause the model to provide harmful output, and that these prompts are non-obvious to human observers. Thus, our study demonstrates a key vulnerability in medical VLMs which should be mitigated before widespread clinical adoption.
+SN  - 2041-1723
+UR  - https://doi.org/10.1038/s41467-024-55631-x
+DO  - 10.1038/s41467-024-55631-x
+ID  - Clusmann2025
+ER  - 

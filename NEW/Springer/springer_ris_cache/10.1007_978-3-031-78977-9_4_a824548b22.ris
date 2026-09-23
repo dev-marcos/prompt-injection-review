@@ -1,0 +1,22 @@
+TY  - CONF
+AU  - Cantini, Riccardo
+AU  - Cosenza, Giada
+AU  - Orsino, Alessio
+AU  - Talia, Domenico
+ED  - Pedreschi, Dino
+ED  - Monreale, Anna
+ED  - Guidotti, Riccardo
+ED  - Pellungrini, Roberto
+ED  - Naretto, Francesca
+PY  - 2025
+DA  - 2025//
+TI  - Are Large Language Models Really Bias-Free? Jailbreak Prompts for Assessing Adversarial Robustness to Bias Elicitation
+BT  - Discovery Science
+SP  - 52
+EP  - 68
+PB  - Springer Nature Switzerland
+CY  - Cham
+AB  - Large Language Models (LLMs) have revolutionized artificial intelligence, demonstrating remarkable computational power and linguistic capabilities. However, these models are inherently prone to various biases stemming from their training data. These include selection, linguistic, and confirmation biases, along with common stereotypes related to gender, ethnicity, sexual orientation, religion, socioeconomic status, disability, and age. This study explores the presence of these biases within the responses given by the most recent LLMs, analyzing the impact on their fairness and reliability. We also investigate how known prompt engineering techniques can be exploited to effectively reveal hidden biases of LLMs, testing their adversarial robustness against jailbreak prompts specially crafted for bias elicitation. Extensive experiments are conducted using the most widespread LLMs at different scales, confirming that LLMs can still be manipulated to produce biased or inappropriate responses, despite their advanced capabilities and sophisticated alignment processes. Our findings underscore the importance of enhancing mitigation techniques to address these safety issues, toward a more sustainable and inclusive artificial intelligence.
+SN  - 978-3-031-78977-9
+ID  - 10.1007/978-3-031-78977-9_4
+ER  - 

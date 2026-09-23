@@ -1,0 +1,24 @@
+TY  - CONF
+AU  - Long, Jiesen
+AU  - Zheng, Yisheng
+AU  - Wu, Jiayun
+AU  - Zhao, Guojiao
+ED  - Wong, Raymond Chi-Wing
+ED  - Tong, Hanghang
+ED  - Lu, Hua
+ED  - Kwok, James
+ED  - Salim, Flora
+ED  - Song, Yuanfeng
+ED  - Yiu, Man Lung
+PY  - 2026
+DA  - 2026//
+TI  - Semantic Steer Chain: Efficient and Precise Black-Box Jailbreaking Through Adaptive Approximation
+BT  - Advances in Knowledge Discovery and Data Mining
+SP  - 145
+EP  - 157
+PB  - Springer Nature Singapore
+CY  - Singapore
+AB  - Large Language Models (LLMs) remain vulnerable to jailbreak attacks that bypass safety alignments to elicit harmful responses. While existing methods exploit these vulnerabilities, they suffer from high query costs, dependence on model internals, need for model-specific adaptation, and generation of off-target outputs due to inadequate evaluation. To address these limitations, we propose the Semantic Steer Chain (SSC), a black-box jailbreaking framework that achieves efficient and goal-consistent attacks through progressive semantic approximation. SSC integrates (i) academic obfuscation to reformulate harmful objectives within a research framework, (ii) single-call generation of a semantic progression chain, (iii) context-preserving backtracking for adaptive refusal recovery, and (iv) dual-validation judging against strict harmfulness and relevance criteria. Extensive experiments demonstrate that SSC achieves an average attack success rate (ASR) of 85.7% across 18 safety-aligned LLMs, including GPT-4.1 and Gemini-2.5-Pro, outperforming adaptive attacks by over 20% under the rigorous evaluation protocol, while reducing query costs by orders of magnitude compared to gradient-based approaches. Requiring only API access, SSC provides an efficient, reliable, and scalable solution for red-teaming modern LLMs.
+SN  - 978-981-92-1462-4
+ID  - 10.1007/978-981-92-1462-4_12
+ER  - 

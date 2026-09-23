@@ -1,0 +1,17 @@
+TY  - JOUR
+AU  - Li, Yan
+AU  - Wang, Gang
+AU  - Wang, Hao
+PY  - 2026
+DA  - 2026/04/09
+TI  - MnMR-GenA: a morphological recombination genetic algorithm for jailbreak attacks in low-resource language
+JO  - Scientific Reports
+SP  - 16113
+VL  - 16
+IS  - 1
+AB  - With the widespread application of large language models (LLMs) across diverse scenarios, jailbreak attacks, in which carefully crafted prompts bypass built-in safety mechanisms, have become a significant security concern, particularly in low-resource language settings. Low-resource languages refer to those with limited training corpora and scarce annotated data, and due to their relatively low proportion in mainstream pretraining datasets, they tend to exhibit higher jailbreak success rates. Existing methods largely rely on directly translating prompts from high-resource languages into target low-resource languages, which leads to limited scalability and poor prompt concealment. In addition, evolutionary attack methods often suffer from single-level search and insufficient diversity. To address these issues, this paper proposes MNMR-GenA, a genetic algorithm-based jailbreak framework for low-resource languages. Building upon traditional genetic algorithms, the proposed method designs mutation strategies by leveraging the structural characteristics of agglutinative languages, and employs multi-granularity collaborative optimization at the word, sentence, and paragraph levels to alleviate the local optimum problem. Meanwhile, role-playing and scenario-nesting mechanisms are introduced to enhance prompt concealment. Compared with direct translation methods, the proposed approach improves the diversity and concealment of jailbreak prompts. Experimental results on multiple mainstream LLMs show that the proposed method achieves an average jailbreak success rate of approximately 80% while maintaining model query costs, and maintains high attack success rates under two mainstream defense mechanisms, PPL and SmoothLLM, indicating stable attack performance under defensive interventions.
+SN  - 2045-2322
+UR  - https://doi.org/10.1038/s41598-026-47434-5
+DO  - 10.1038/s41598-026-47434-5
+ID  - Li2026
+ER  - 

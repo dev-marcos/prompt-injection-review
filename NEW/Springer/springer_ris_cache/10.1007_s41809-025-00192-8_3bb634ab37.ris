@@ -1,0 +1,17 @@
+TY  - JOUR
+AU  - Abdelzaher, Esra
+AU  - Rafaee, Eshrag
+PY  - 2026
+DA  - 2026/05/01
+TI  - Linguistic profile of LLMs: an overview of linguistic performance and jailbreak vulnerability
+JO  - Journal of Cultural Cognitive Science
+SP  - 15
+EP  - 29
+VL  - 10
+IS  - 1
+AB  - This study explores the current linguistic debates over the generative performance of large language models (LLMs) from both philosophical and empirical perspectives. We argue that the linguistic profiles cannot be constructed for LLMs without considering their linguistic performance, vulnerabilities to jailbreaks and architectural properties. The present review synthesizes the core debates over the abilities of LLMs, which are frequently described as both “stochastic parrots” from a philosophical perspective and, “human-like” from computational linguistic perspectives. We offer an overview of the explorations of LLMs in linguistic studies and the contradictory results regarding their multilingual outputs. Different cognitive and psycholinguistic assessments of LLMs are also examined from the perspective of language generation and jailbreaking. Connections between the successful natural language generation and failures to withstand simple jailbreak prompts are established with reference to the transformer architecture of LLMs.
+SN  - 2520-1018
+UR  - https://doi.org/10.1007/s41809-025-00192-8
+DO  - 10.1007/s41809-025-00192-8
+ID  - Abdelzaher2026
+ER  - 
